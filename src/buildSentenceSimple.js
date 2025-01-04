@@ -1,546 +1,458 @@
 const sentences = [
+  
   {
-    "norwegian": "Jeg bor i Norge.",
-    "russian": "Я живу в Норвегии.",
-    "english": "I live in Norway.",
-    "arabic": "أنا أعيش في النرويج."
+    "norwegian": "Jeg liker å lage nettsider med HTML og CSS.",
+    "russian": "Мне нравится создавать веб-сайты с использованием HTML и CSS.",
+    "english": "I enjoy creating websites with HTML and CSS."
   },
   {
-    "norwegian": "Jeg heter Anna.",
-    "russian": "Меня зовут Анна.",
-    "english": "My name is Anna.",
-    "arabic": "اسمي آنا."
+    "norwegian": "Jeg kan bruke JavaScript for å gjøre nettsider interaktive.",
+    "russian": "Я могу использовать JavaScript, чтобы сделать веб-сайты интерактивными.",
+    "english": "I can use JavaScript to make websites interactive."
   },
   {
-    "norwegian": "Hvor er toalettet?",
-    "russian": "Где находится туалет?",
-    "english": "Where is the toilet?",
-    "arabic": "أين الحمام؟"
+    "norwegian": "Jeg skriver ofte tester for å sikre at koden fungerer riktig.",
+    "russian": "Я часто пишу тесты, чтобы убедиться, что код работает правильно.",
+    "english": "I often write tests to ensure the code works correctly."
   },
   {
-    "norwegian": "Han kjøper melk i butikken.",
-    "russian": "Он покупает молоко в магазине.",
-    "english": "He buys milk at the store.",
-    "arabic": "هو يشتري الحليب من المتجر."
+    "norwegian": "Jeg bruker moderne verktøy som Git for å administrere prosjekter.",
+    "russian": "Я использую современные инструменты, такие как Git, для управления проектами.",
+    "english": "I use modern tools like Git to manage projects."
   },
   {
-    "norwegian": "Vi spiser middag klokka seks.",
-    "russian": "Мы ужинаем в шесть часов.",
-    "english": "We eat dinner at six o'clock.",
-    "arabic": "نتناول العشاء في الساعة السادسة."
+    "norwegian": "Jeg har erfaring med å bruke APIer til å hente data.",
+    "russian": "У меня есть опыт использования API для получения данных.",
+    "english": "I have experience using APIs to fetch data."
   },
   {
-    "norwegian": "De går til skolen hver dag.",
-    "russian": "Они ходят в школу каждый день.",
-    "english": "They go to school every day.",
-    "arabic": "يذهبون إلى المدرسة كل يوم."
+    "norwegian": "Jeg kan jobbe med både frontend- og backend-utvikling.",
+    "russian": "Я могу работать как с фронтенд-, так и с бэкенд-разработкой.",
+    "english": "I can work with both frontend and backend development."
   },
   {
-    "norwegian": "Jeg liker kaffe.",
-    "russian": "Мне нравится кофе.",
-    "english": "I like coffee.",
-    "arabic": "أنا أحب القهوة."
+    "norwegian": "Jeg liker å lære nye programmeringsspråk.",
+    "russian": "Мне нравится изучать новые языки программирования.",
+    "english": "I enjoy learning new programming languages."
   },
   {
-    "norwegian": "Hun jobber på en restaurant.",
-    "russian": "Она работает в ресторане.",
-    "english": "She works at a restaurant.",
-    "arabic": "هي تعمل في مطعم."
+    "norwegian": "Jeg skriver ren og lett forståelig kode.",
+    "russian": "Я пишу чистый и легко понятный код.",
+    "english": "I write clean and easy-to-understand code."
   },
   {
-    "norwegian": "Bussen kommer om ti minutter.",
-    "russian": "Автобус прибудет через десять минут.",
-    "english": "The bus arrives in ten minutes.",
-    "arabic": "الحافلة تصل في غضون عشر دقائق."
+    "norwegian": "Jeg liker å jobbe med prosjekter som krever kreativ tenkning.",
+    "russian": "Мне нравится работать над проектами, которые требуют креативного мышления.",
+    "english": "I enjoy working on projects that require creative thinking."
   },
   {
-    "norwegian": "Vi skal på ferie neste uke.",
-    "russian": "Мы поедем в отпуск на следующей неделе.",
-    "english": "We are going on vacation next week.",
-    "arabic": "سنذهب في إجازة الأسبوع المقبل."
-  },
-  {
-    "norwegian": "Hun leser en bok i stua.",
-    "russian": "Она читает книгу в гостиной.",
-    "english": "She is reading a book in the living room.",
-    "arabic": "هي تقرأ كتابًا في غرفة المعيشة."
-  },
-  {
-    "norwegian": "Vi ser på TV om kvelden.",
-    "russian": "Мы смотрим телевизор вечером.",
-    "english": "We watch TV in the evening.",
-    "arabic": "نشاهد التلفاز في المساء."
-  },
-  {
-    "norwegian": "Barnet sover i senga.",
-    "russian": "Ребёнок спит в кровати.",
-    "english": "The child is sleeping in the bed.",
-    "arabic": "الطفل نائم في السرير."
-  },
-  {
-    "norwegian": "Jeg spiser frokost klokka åtte.",
-    "russian": "Я завтракаю в восемь часов.",
-    "english": "I eat breakfast at eight o'clock.",
-    "arabic": "أتناول الفطور في الساعة الثامنة."
-  },
-  {
-    "norwegian": "Han kjører bil til jobben.",
-    "russian": "Он едет на машине на работу.",
-    "english": "He drives to work.",
-    "arabic": "هو يقود السيارة إلى العمل."
-  },
-  {
-    "norwegian": "De handler på butikken hver lørdag.",
-    "russian": "Они делают покупки в магазине каждую субботу.",
-    "english": "They shop at the store every Saturday.",
-    "arabic": "يتسوقون في المتجر كل يوم سبت."
-  },
-  {
-    "norwegian": "Jeg har en katt som heter Luna.",
-    "russian": "У меня есть кошка по имени Луна.",
-    "english": "I have a cat named Luna.",
-    "arabic": "لدي قطة اسمها لونا."
-  },
-  {
-    "norwegian": "Vi går en tur i parken.",
-    "russian": "Мы гуляем в парке.",
-    "english": "We are taking a walk in the park.",
-    "arabic": "نحن نتمشى في الحديقة."
-  },
-  {
-    "norwegian": "Han skriver et brev til sin venn.",
-    "russian": "Он пишет письмо своему другу.",
-    "english": "He is writing a letter to his friend.",
-    "arabic": "هو يكتب رسالة إلى صديقه."
-  },
-  {
-    "norwegian": "Huset deres er veldig stort.",
-    "russian": "Их дом очень большой.",
-    "english": "Their house is very big.",
-    "arabic": "منزلهم كبير جدًا."
-  },
- 
-  {
-    "norwegian": "Jeg liker å gå tur i skogen.",
-    "russian": "Мне нравится гулять в лесу.",
-    "english": "I like to walk in the forest.",
-    "arabic": "أحب المشي في الغابة."
-  },
-  {
-    "norwegian": "De spiser is i sola.",
-    "russian": "Они едят мороженое на солнце.",
-    "english": "They are eating ice cream in the sun.",
-    "arabic": "هم يأكلون الآيس كريم في الشمس."
-  },
-  {
-    "norwegian": "Han drikker vann fra glasset.",
-    "russian": "Он пьёт воду из стакана.",
-    "english": "He drinks water from the glass.",
-    "arabic": "هو يشرب الماء من الكأس."
-  },
-  {
-    "norwegian": "Vi bor i et lite hus på landet.",
-    "russian": "Мы живём в маленьком доме в деревне.",
-    "english": "We live in a small house in the countryside.",
-    "arabic": "نحن نعيش في منزل صغير في الريف."
-  },
-  {
-    "norwegian": "Hun kjøper blomster på torget.",
-    "russian": "Она покупает цветы на рынке.",
-    "english": "She buys flowers at the market.",
-    "arabic": "هي تشتري الزهور في السوق."
-  },
-  {
-    "norwegian": "Jeg trener på treningssenteret.",
-    "russian": "Я занимаюсь в спортзале.",
-    "english": "I work out at the gym.",
-    "arabic": "أنا أتمرن في الصالة الرياضية."
-  },
-  {
-    "norwegian": "De studerer norsk på skolen.",
-    "russian": "Они учат норвежский в школе.",
-    "english": "They study Norwegian at school.",
-    "arabic": "هم يدرسون النرويجية في المدرسة."
-  },
-  {
-    "norwegian": "Han venter på bussen i regnet.",
-    "russian": "Он ждёт автобус под дождём.",
-    "english": "He is waiting for the bus in the rain.",
-    "arabic": "هو ينتظر الحافلة في المطر."
-  },
-  {
-    "norwegian": "Katten sitter på stolen.",
-    "russian": "Кошка сидит на стуле.",
-    "english": "The cat is sitting on the chair.",
-    "arabic": "القطة تجلس على الكرسي."
-  },
-  {
-    "norwegian": "Vi lager middag sammen i kveld.",
-    "russian": "Мы готовим ужин вместе сегодня вечером.",
-    "english": "We are cooking dinner together tonight.",
-    "arabic": "نحن نطبخ العشاء معًا الليلة."
-  },
-  {
-    "norwegian": "Hun sykler til skolen hver morgen.",
-    "russian": "Она едет на велосипеде в школу каждое утро.",
-    "english": "She cycles to school every morning.",
-    "arabic": "هي تركب الدراجة إلى المدرسة كل صباح."
-  },
-  {
-    "norwegian": "Jeg kjøper grønnsaker på butikken.",
-    "russian": "Я покупаю овощи в магазине.",
-    "english": "I buy vegetables at the store.",
-    "arabic": "أنا أشتري الخضروات من المتجر."
-  },
-  {
-    "norwegian": "Vi besøker besteforeldrene våre i helgen.",
-    "russian": "Мы навещаем наших бабушку и дедушку на выходных.",
-    "english": "We are visiting our grandparents this weekend.",
-    "arabic": "نحن نزور أجدادنا في نهاية هذا الأسبوع."
-  },
-  {
-    "norwegian": "Han ser en fugl i treet.",
-    "russian": "Он видит птицу на дереве.",
-    "english": "He sees a bird in the tree.",
-    "arabic": "هو يرى طائرًا في الشجرة."
-  },
-  {
-    "norwegian": "Barnet leker med ballen i hagen.",
-    "russian": "Ребёнок играет с мячом в саду.",
-    "english": "The child is playing with the ball in the garden.",
-    "arabic": "الطفل يلعب بالكرة في الحديقة."
-  },
-  {
-    "norwegian": "Jeg skriver i dagboka mi hver kveld.",
-    "russian": "Я пишу в своём дневнике каждый вечер.",
-    "english": "I write in my diary every evening.",
-    "arabic": "أكتب في مذكرتي كل مساء."
-  },
-  {
-    "norwegian": "De leser avisen ved bordet.",
-    "russian": "Они читают газету за столом.",
-    "english": "They are reading the newspaper at the table.",
-    "arabic": "هم يقرؤون الصحيفة على الطاولة."
-  },
-  {
-    "norwegian": "Vi lager kake til bursdagen hans.",
-    "russian": "Мы готовим торт к его дню рождения.",
-    "english": "We are making a cake for his birthday.",
-    "arabic": "نحن نصنع كعكة لعيد ميلاده."
-  },
-  {
-    "norwegian": "Hun drømmer om å reise til Italia.",
-    "russian": "Она мечтает о поездке в Италию.",
-    "english": "She dreams of traveling to Italy.",
-    "arabic": "هي تحلم بالسفر إلى إيطاليا."
-  },
-  {
-    "norwegian": "Jeg liker å høre på musikk når jeg jobber.",
-    "russian": "Мне нравится слушать музыку, когда я работаю.",
-    "english": "I like listening to music when I work.",
-    "arabic": "أحب الاستماع إلى الموسيقى عندما أعمل."
-  },
-  {
-    "norwegian": "Jeg står opp klokka sju hver dag.",
-    "russian": "Я встаю в семь часов каждый день.",
-    "english": "I get up at seven o'clock every day.",
-    "arabic": "أستيقظ في الساعة السابعة كل يوم."
-  },
-  {
-    "norwegian": "Hun tar toget til byen.",
-    "russian": "Она едет на поезде в город.",
-    "english": "She takes the train to the city.",
-    "arabic": "تأخذ القطار إلى المدينة."
-  },
-  {
-    "norwegian": "Vi liker å spille fotball etter skolen.",
-    "russian": "Нам нравится играть в футбол после школы.",
-    "english": "We like to play football after school.",
-    "arabic": "نحب لعب كرة القدم بعد المدرسة."
-  },
-  {
-    "norwegian": "Han har en bror og en søster.",
-    "russian": "У него есть брат и сестра.",
-    "english": "He has a brother and a sister.",
-    "arabic": "لديه أخ وأخت."
-  },
-  {
-    "norwegian": "Jeg drikker te med sitron.",
-    "russian": "Я пью чай с лимоном.",
-    "english": "I drink tea with lemon.",
-    "arabic": "أشرب الشاي بالليمون."
-  },
-  {
-    "norwegian": "De bor i en leilighet i sentrum.",
-    "russian": "Они живут в квартире в центре города.",
-    "english": "They live in an apartment in the city center.",
-    "arabic": "يعيشون في شقة في وسط المدينة."
-  },
-  {
-    "norwegian": "Hun lager en salat til lunsj.",
-    "russian": "Она готовит салат на обед.",
-    "english": "She makes a salad for lunch.",
-    "arabic": "تعد سلطة للغداء."
-  },
-  {
-    "norwegian": "Jeg må kjøpe nye sko i dag.",
-    "russian": "Мне нужно купить новые туфли сегодня.",
-    "english": "I need to buy new shoes today.",
-    "arabic": "أحتاج لشراء أحذية جديدة اليوم."
-  },
-  {
-    "norwegian": "Vi leser en spennende bok sammen.",
-    "russian": "Мы вместе читаем увлекательную книгу.",
-    "english": "We are reading an exciting book together.",
-    "arabic": "نقرأ كتابًا مثيرًا معًا."
-  },
-  {
-    "norwegian": "Han liker å tegne bilder av dyr.",
-    "russian": "Ему нравится рисовать картинки с животными.",
-    "english": "He likes to draw pictures of animals.",
-    "arabic": "يحب رسم صور للحيوانات."
-  },
-  {
-    "norwegian": "Jeg går til butikken for å kjøpe brød.",
-    "russian": "Я иду в магазин, чтобы купить хлеб.",
-    "english": "I am going to the store to buy bread.",
-    "arabic": "أذهب إلى المتجر لشراء الخبز."
-  },
-  {
-    "norwegian": "De svømmer i sjøen om sommeren.",
-    "russian": "Они плавают в море летом.",
-    "english": "They swim in the sea during the summer.",
-    "arabic": "يسبحون في البحر خلال الصيف."
-  },
-  {
-    "norwegian": "Vi spiser epler fra treet i hagen.",
-    "russian": "Мы едим яблоки с дерева в саду.",
-    "english": "We eat apples from the tree in the garden.",
-    "arabic": "نأكل التفاح من الشجرة في الحديقة."
-  },
-  {
-    "norwegian": "Hun vasker klær på mandager.",
-    "russian": "Она стирает одежду по понедельникам.",
-    "english": "She washes clothes on Mondays.",
-    "arabic": "تغسل الملابس أيام الاثنين."
-  },
-  {
-    "norwegian": "Jeg ser en film på kino i kveld.",
-    "russian": "Я смотрю фильм в кинотеатре сегодня вечером.",
-    "english": "I am watching a movie at the cinema tonight.",
-    "arabic": "أشاهد فيلمًا في السينما الليلة."
-  },
-  {
-    "norwegian": "De leker i snøen om vinteren.",
-    "russian": "Они играют в снегу зимой.",
-    "english": "They play in the snow during winter.",
-    "arabic": "يلعبون في الثلج خلال الشتاء."
-  },
-  {
-    "norwegian": "Vi lærer nye ord på norsk hver dag.",
-    "russian": "Мы учим новые слова на норвежском каждый день.",
-    "english": "We learn new words in Norwegian every day.",
-    "arabic": "نتعلم كلمات جديدة باللغة النرويجية كل يوم."
-  },
-  {
-    "norwegian": "Hun kjøper en rød kjole til festen.",
-    "russian": "Она покупает красное платье для вечеринки.",
-    "english": "She buys a red dress for the party.",
-    "arabic": "تشتري فستانًا أحمر للحفلة."
-  },
-  {
-    "norwegian": "Jeg hører på radio om morgenen.",
-    "russian": "Я слушаю радио по утрам.",
-    "english": "I listen to the radio in the morning.",
-    "arabic": "أستمع إلى الراديو في الصباح."
-  },
-  {
-    "norwegian": "De spiser middag ute på terrassen.",
-    "russian": "Они ужинают на террасе.",
-    "english": "They eat dinner outside on the terrace.",
-    "arabic": "يتناولون العشاء في الخارج على التراس."
-  },
-  {
-    "norwegian": "Han går en tur langs elva.",
-    "russian": "Он гуляет вдоль реки.",
-    "english": "He takes a walk along the river.",
-    "arabic": "هو يمشي على طول النهر."
-  },
-  {
-    "norwegian": "Vi kjøper billetter til toget.",
-    "russian": "Мы покупаем билеты на поезд.",
-    "english": "We are buying tickets for the train.",
-    "arabic": "نحن نشتري تذاكر القطار."
-  },
+    "norwegian": "Jeg bruker ofte Chrome DevTools for å feilsøke nettsider.",
+    "russian": "Я часто использую Chrome DevTools для отладки веб-сайтов.",
+    "english": "I often use Chrome DevTools to debug websites."
+    },
+  
   {
-    "norwegian": "Hun drikker kaffe på kafeen.",
-    "russian": "Она пьёт кофе в кафе.",
-    "english": "She drinks coffee at the café.",
-    "arabic": "هي تشرب القهوة في المقهى."
+    "norwegian": "Jeg bruker ofte Node.js for backend-utvikling.",
+    "russian": "Я часто использую Node.js для бэкенд-разработки.",
+    "english": "I often use Node.js for backend development."
   },
   {
-    "norwegian": "Jeg sender et postkort til en venn.",
-    "russian": "Я отправляю открытку другу.",
-    "english": "I am sending a postcard to a friend.",
-    "arabic": "أنا أرسل بطاقة بريدية إلى صديق."
+    "norwegian": "Jeg kan lage responsive nettsider med CSS.",
+    "russian": "Я могу создавать адаптивные веб-сайты с использованием CSS.",
+    "english": "I can create responsive websites with CSS."
   },
   {
-    "norwegian": "De spiller kort på hytta.",
-    "russian": "Они играют в карты на даче.",
-    "english": "They are playing cards at the cabin.",
-    "arabic": "هم يلعبون الورق في الكابينة."
+    "norwegian": "Jeg liker å samarbeide med designere for å lage flotte nettsider.",
+    "russian": "Мне нравится сотрудничать с дизайнерами для создания красивых веб-сайтов.",
+    "english": "I enjoy collaborating with designers to create beautiful websites."
   },
   {
-    "norwegian": "Vi feirer bursdagen hennes i dag.",
-    "russian": "Мы отмечаем её день рождения сегодня.",
-    "english": "We are celebrating her birthday today.",
-    "arabic": "نحن نحتفل بعيد ميلادها اليوم."
+    "norwegian": "Jeg bruker ofte JSON til å utveksle data mellom server og klient.",
+    "russian": "Я часто использую JSON для обмена данными между сервером и клиентом.",
+    "english": "I often use JSON to exchange data between server and client."
   },
   {
-    "norwegian": "Jeg må ta en buss til sentrum.",
-    "russian": "Мне нужно сесть на автобус до центра.",
-    "english": "I need to take a bus to the city center.",
-    "arabic": "أحتاج إلى ركوب الحافلة إلى وسط المدينة."
+    "norwegian": "Jeg har erfaring med å lage brukervennlige grensesnitt.",
+    "russian": "У меня есть опыт создания удобных пользовательских интерфейсов.",
+    "english": "I have experience creating user-friendly interfaces."
   },
   {
-    "norwegian": "Hun liker å male bilder om kvelden.",
-    "russian": "Ей нравится рисовать картины вечером.",
-    "english": "She likes to paint pictures in the evening.",
-    "arabic": "هي تحب رسم الصور في المساء."
+    "norwegian": "Jeg kan lage apper med React Native.",
+    "russian": "Я могу создавать приложения с React Native.",
+    "english": "I can create apps with React Native."
   },
   {
-    "norwegian": "De ser stjerner på himmelen om natten.",
-    "russian": "Они смотрят на звёзды на небе ночью.",
-    "english": "They look at the stars in the sky at night.",
-    "arabic": "هم ينظرون إلى النجوم في السماء ليلاً."
+    "norwegian": "Jeg liker å lære nye teknologier og verktøy.",
+    "russian": "Мне нравится изучать новые технологии и инструменты.",
+    "english": "I enjoy learning new technologies and tools."
   },
   {
-    "norwegian": "Jeg spiser en sandwich med ost.",
-    "russian": "Я ем бутерброд с сыром.",
-    "english": "I am eating a sandwich with cheese.",
-    "arabic": "أنا آكل شطيرة بالجبن."
+    "norwegian": "Jeg skriver ren og godt strukturert kode.",
+    "russian": "Я пишу чистый и хорошо структурированный код.",
+    "english": "I write clean and well-structured code."
   },
   {
-    "norwegian": "Han vanner blomstene i hagen.",
-    "russian": "Он поливает цветы в саду.",
-    "english": "He waters the flowers in the garden.",
-    "arabic": "هو يسقي الزهور في الحديقة."
+    "norwegian": "Jeg kan jobbe med databasesystemer som MySQL og MongoDB.",
+    "russian": "Я могу работать с системами управления базами данных, такими как MySQL и MongoDB.",
+    "english": "I can work with database systems like MySQL and MongoDB."
   },
   {
-    "norwegian": "Vi baker brød i helgen.",
-    "russian": "Мы печём хлеб на выходных.",
-    "english": "We bake bread on the weekend.",
-    "arabic": "نحن نخبز الخبز في عطلة نهاية الأسبوع."
+    "norwegian": "Jeg har erfaring med å lage APIer.",
+    "russian": "У меня есть опыт создания API.",
+    "english": "I have experience creating APIs."
   },
   {
-    "norwegian": "Hun går på biblioteket for å låne en bok.",
-    "russian": "Она идёт в библиотеку, чтобы взять книгу.",
-    "english": "She goes to the library to borrow a book.",
-    "arabic": "هي تذهب إلى المكتبة لاستعارة كتاب."
+    "norwegian": "Jeg liker å bruke verktøy som VS Code for å skrive kode.",
+    "russian": "Мне нравится использовать инструменты, такие как VS Code, для написания кода.",
+    "english": "I enjoy using tools like VS Code to write code."
   },
   {
-    "norwegian": "Jeg slapper av hjemme etter jobben.",
-    "russian": "Я отдыхаю дома после работы.",
-    "english": "I relax at home after work.",
-    "arabic": "أنا أسترخي في المنزل بعد العمل."
+    "norwegian": "Jeg kan lage enkle APIer med Express.js.",
+    "russian": "Я могу создавать простые API с использованием Express.js.",
+    "english": "I can create simple APIs with Express.js."
   },
   {
-    "norwegian": "De spiller piano sammen om kvelden.",
-    "russian": "Они играют на пианино вместе вечером.",
-    "english": "They play the piano together in the evening.",
-    "arabic": "هم يعزفون على البيانو معًا في المساء."
+    "norwegian": "Jeg bruker ofte verktøy som Postman for å teste APIer.",
+    "russian": "Я часто использую инструменты, такие как Postman, для тестирования API.",
+    "english": "I often use tools like Postman to test APIs."
   },
   {
-    "norwegian": "Vi besøker museet i byen.",
-    "russian": "Мы посещаем музей в городе.",
-    "english": "We visit the museum in the city.",
-    "arabic": "نحن نزور المتحف في المدينة."
+    "norwegian": "Jeg liker å jobbe med open source-prosjekter.",
+    "russian": "Мне нравится работать с open source проектами.",
+    "english": "I enjoy working on open source projects."
   },
   {
-    "norwegian": "Han kjøper en ny klokke på butikken.",
-    "russian": "Он покупает новые часы в магазине.",
-    "english": "He buys a new watch at the store.",
-    "arabic": "هو يشتري ساعة جديدة في المتجر."
+    "norwegian": "Jeg kan bruke TypeScript for å forbedre koden.",
+    "russian": "Я могу использовать TypeScript для улучшения кода.",
+    "english": "I can use TypeScript to improve code."
   },
   {
-    "norwegian": "Jeg skriver en e-post til sjefen min.",
-    "russian": "Я пишу электронное письмо своему начальнику.",
-    "english": "I am writing an email to my boss.",
-    "arabic": "أنا أكتب بريدًا إلكترونيًا إلى رئيسي."
+    "norwegian": "Jeg liker å lære om nye rammeverk som Angular og Vue.",
+    "russian": "Мне нравится изучать новые фреймворки, такие как Angular и Vue.",
+    "english": "I enjoy learning about new frameworks like Angular and Vue."
   },
   {
-    "norwegian": "Hun går på tur i fjellet om sommeren.",
-    "russian": "Она ходит в поход в горы летом.",
-    "english": "She goes hiking in the mountains during the summer.",
-    "arabic": "هي تذهب للتنزه في الجبال خلال الصيف."
+    "norwegian": "Jeg kan lage automatiserte tester med Jest.",
+    "russian": "Я могу создавать автоматизированные тесты с использованием Jest.",
+    "english": "I can create automated tests with Jest."
   },
   {
-    "norwegian": "De ser en regnbue etter regnet.",
-    "russian": "Они видят радугу после дождя.",
-    "english": "They see a rainbow after the rain.",
-    "arabic": "هم يرون قوس قزح بعد المطر."
+    "norwegian": "Jeg liker å bruke CSS for å lage vakre nettsider.",
+    "russian": "Мне нравится использовать CSS для создания красивых веб-сайтов.",
+    "english": "I enjoy using CSS to create beautiful websites."
   },
   {
-    "norwegian": "Jeg spiser en banan til frokost.",
-    "russian": "Я ем банан на завтрак.",
-    "english": "I eat a banana for breakfast.",
-    "arabic": "أنا آكل موزة على الإفطار."
+    "norwegian": "Jeg kan jobbe med verktøy som Docker for å administrere apper.",
+    "russian": "Я могу работать с инструментами, такими как Docker, для управления приложениями.",
+    "english": "I can work with tools like Docker to manage apps."
   },
   {
-    "norwegian": "Vi hører på fuglene som synger i skogen.",
-    "russian": "Мы слушаем птиц, которые поют в лесу.",
-    "english": "We listen to the birds singing in the forest.",
-    "arabic": "نستمع إلى الطيور تغني في الغابة."
+    "norwegian": "Jeg liker å bruke GitHub for å samarbeide med andre utviklere.",
+    "russian": "Мне нравится использовать GitHub для сотрудничества с другими разработчиками.",
+    "english": "I enjoy using GitHub to collaborate with other developers."
   },
-  {
-    "norwegian": "Hun kjøper melk og brød på vei hjem.",
-    "russian": "Она покупает молоко и хлеб по пути домой.",
-    "english": "She buys milk and bread on her way home.",
-    "arabic": "هي تشتري الحليب والخبز في طريقها إلى المنزل."
-  },
-  {
-    "norwegian": "De sitter ved bordet og snakker sammen.",
-    "russian": "Они сидят за столом и разговаривают друг с другом.",
-    "english": "They sit at the table and talk together.",
-    "arabic": "يجلسون على الطاولة ويتحدثون معًا."
-  },
-  {
-    "norwegian": "Han sover på sofaen i stua.",
-    "russian": "Он спит на диване в гостиной.",
-    "english": "He is sleeping on the sofa in the living room.",
-    "arabic": "هو نائم على الأريكة في غرفة المعيشة."
-  },
-  {
-    "norwegian": "Jeg tar et bilde av fjellet.",
-    "russian": "Я фотографирую гору.",
-    "english": "I take a picture of the mountain.",
-    "arabic": "ألتقط صورة للجبل."
-  },
-  {
-    "norwegian": "Vi lager pannekaker til barna.",
-    "russian": "Мы готовим блины для детей.",
-    "english": "We are making pancakes for the kids.",
-    "arabic": "نحن نصنع الفطائر للأطفال."
-  },
-  {
-    "norwegian": "Hun leser et eventyr for sønnen sin.",
-    "russian": "Она читает сказку своему сыну.",
-    "english": "She is reading a fairy tale to her son.",
-    "arabic": "هي تقرأ قصة خيالية لابنها."
-  },
-  {
-    "norwegian": "De ser på båtene i havna.",
-    "russian": "Они смотрят на лодки в гавани.",
-    "english": "They are looking at the boats in the harbor.",
-    "arabic": "هم ينظرون إلى القوارب في الميناء."
-  },
-  {
-    "norwegian": "Jeg går til legen fordi jeg er syk.",
-    "russian": "Я иду к врачу, потому что я болен.",
-    "english": "I am going to the doctor because I am sick.",
-    "arabic": "أنا ذاهب إلى الطبيب لأنني مريض."
-  }
 
+  {
+    "norwegian": "Jeg kan bruke AJAX til å lage dynamiske nettsider.",
+    "russian": "Я могу использовать AJAX для создания динамических веб-сайтов.",
+    "english": "I can use AJAX to create dynamic websites."
+  },
+  {
+    "norwegian": "Jeg liker å designe brukergrensesnitt som er enkle å bruke.",
+    "russian": "Мне нравится разрабатывать пользовательские интерфейсы, которые легко использовать.",
+    "english": "I enjoy designing user interfaces that are easy to use."
+  },
+  {
+    "norwegian": "Jeg kan jobbe med rammeverk som Bootstrap for å lage responsive design.",
+    "russian": "Я могу работать с фреймворками, такими как Bootstrap, для создания адаптивного дизайна.",
+    "english": "I can work with frameworks like Bootstrap to create responsive designs."
+  },
+  {
+    "norwegian": "Jeg bruker ofte GitHub for å dele koden min med andre.",
+    "russian": "Я часто использую GitHub для того, чтобы делиться своим кодом с другими.",
+    "english": "I often use GitHub to share my code with others."
+  },
+  {
+    "norwegian": "Jeg liker å eksperimentere med nye teknologier i fritiden min.",
+    "russian": "Мне нравится экспериментировать с новыми технологиями в свободное время.",
+    "english": "I enjoy experimenting with new technologies in my free time."
+  },
+  {
+    "norwegian": "Jeg kan skrive kode som er lett å vedlikeholde og utvide.",
+    "russian": "Я могу писать код, который легко поддерживать и расширять.",
+    "english": "I can write code that is easy to maintain and extend."
+  },
+  {
+    "norwegian": "Jeg liker å lage apper som hjelper folk i hverdagen.",
+    "russian": "Мне нравится создавать приложения, которые помогают людям в повседневной жизни.",
+    "english": "I enjoy creating apps that help people in their daily lives."
+  },
+  {
+    "norwegian": "Jeg bruker ofte VS Code for å skrive og teste koden min.",
+    "russian": "Я часто использую VS Code для написания и тестирования своего кода.",
+    "english": "I often use VS Code to write and test my code."
+  },
+  {
+    "norwegian": "Jeg har erfaring med å bruke REST APIer for datainnhenting.",
+    "russian": "У меня есть опыт использования REST API для получения данных.",
+    "english": "I have experience using REST APIs for data fetching."
+  },
+  {
+    "norwegian": "Jeg kan jobbe med ulike typer databaser som SQL og NoSQL.",
+    "russian": "Я могу работать с различными типами баз данных, такими как SQL и NoSQL.",
+    "english": "I can work with different types of databases like SQL and NoSQL."
+  }, 
+  {
+    "norwegian": "Jeg kan bruke GitLab til å administrere kodeprosjekter.",
+    "russian": "Я могу использовать GitLab для управления проектами с кодом.",
+    "english": "I can use GitLab to manage code projects."
+  },
+  {
+    "norwegian": "Jeg liker å utvikle nettsider med moderne rammeverk.",
+    "russian": "Мне нравится разрабатывать веб-сайты с использованием современных фреймворков.",
+    "english": "I enjoy developing websites with modern frameworks."
+  },
+  {
+    "norwegian": "Jeg har erfaring med å jobbe i team med utviklere.",
+    "russian": "У меня есть опыт работы в команде с разработчиками.",
+    "english": "I have experience working in a team with developers."
+  },
+  {
+    "norwegian": "Jeg kan lage enkle mobilapper med React Native.",
+    "russian": "Я могу создавать простые мобильные приложения с React Native.",
+    "english": "I can create simple mobile apps with React Native."
+  },
+  {
+    "norwegian": "Jeg bruker ofte Chrome DevTools for å feilsøke problemer.",
+    "russian": "Я часто использую Chrome DevTools для отладки проблем.",
+    "english": "I often use Chrome DevTools to debug issues."
+  },
+  {
+    "norwegian": "Jeg liker å lage nettsider som fungerer bra på alle enheter.",
+    "russian": "Мне нравится создавать веб-сайты, которые хорошо работают на всех устройствах.",
+    "english": "I enjoy creating websites that work well on all devices."
+  },
+  {
+    "norwegian": "Jeg kan jobbe med databaser som MySQL og PostgreSQL.",
+    "russian": "Я могу работать с базами данных, такими как MySQL и PostgreSQL.",
+    "english": "I can work with databases like MySQL and PostgreSQL."
+  },
+  {
+    "norwegian": "Jeg liker å lage apper som hjelper folk i hverdagen.",
+    "russian": "Мне нравится создавать приложения, которые помогают людям в повседневной жизни.",
+    "english": "I enjoy creating apps that help people in their daily lives."
+  },
+  {
+    "norwegian": "Jeg bruker ofte verktøy som Figma for design.",
+    "russian": "Я часто использую инструменты, такие как Figma, для дизайна.",
+    "english": "I often use tools like Figma for design."
+  },
+  {
+    "norwegian": "Jeg har erfaring med å jobbe med APIer for datainnhenting.",
+    "russian": "У меня есть опыт работы с API для получения данных.",
+    "english": "I have experience working with APIs for data fetching."
+  },
+  {
+    "norwegian": "Jeg kan bruke verktøy som Jenkins for kontinuerlig integrasjon.",
+    "russian": "Я могу использовать инструменты, такие как Jenkins, для непрерывной интеграции.",
+    "english": "I can use tools like Jenkins for continuous integration."
+  },
+  {
+    "norwegian": "Jeg liker å lage nettsider som laster raskt.",
+    "russian": "Мне нравится создавать веб-сайты, которые быстро загружаются.",
+    "english": "I enjoy creating websites that load quickly."
+  },
+  {
+    "norwegian": "Jeg kan jobbe med forskjellige datastrukturer og algoritmer.",
+    "russian": "Я могу работать с различными структурами данных и алгоритмами.",
+    "english": "I can work with different data structures and algorithms."
+  },
+  {
+    "norwegian": "Jeg liker å lage brukervennlige grensesnitt med HTML og CSS.",
+    "russian": "Мне нравится создавать удобные пользовательские интерфейсы с использованием HTML и CSS.",
+    "english": "I enjoy creating user-friendly interfaces with HTML and CSS."
+  },
+  {
+    "norwegian": "Jeg har erfaring med å bruke Node.js for serverutvikling.",
+    "russian": "У меня есть опыт использования Node.js для разработки серверов.",
+    "english": "I have experience using Node.js for server development."
+  },
+  {
+    "norwegian": "Jeg liker å bruke TypeScript for å skrive tydelig kode.",
+    "russian": "Мне нравится использовать TypeScript для написания понятного кода.",
+    "english": "I enjoy using TypeScript to write clear code."
+  },
+  {
+    "norwegian": "Jeg kan bruke GitHub Actions for automatisering av arbeidsflyt.",
+    "russian": "Я могу использовать GitHub Actions для автоматизации рабочих процессов.",
+    "english": "I can use GitHub Actions for workflow automation."
+  },
+  {
+    "norwegian": "Jeg har erfaring med å lage interaktive websider.",
+    "russian": "У меня есть опыт создания интерактивных веб-страниц.",
+    "english": "I have experience creating interactive web pages."
+  },
+  {
+    "norwegian": "Jeg liker å eksperimentere med nye JavaScript-biblioteker.",
+    "russian": "Мне нравится экспериментировать с новыми библиотеками JavaScript.",
+    "english": "I enjoy experimenting with new JavaScript libraries."
+  },
+  {
+    "norwegian": "Jeg kan jobbe med både SQL og NoSQL databaser.",
+    "russian": "Я могу работать как с SQL, так и с NoSQL базами данных.",
+    "english": "I can work with both SQL and NoSQL databases."
+  },
+  {
+    "norwegian": "Jeg liker å lage responsive nettsider.",
+    "russian": "Мне нравится создавать адаптивные веб-сайты.",
+    "english": "I enjoy creating responsive websites."
+  },
+  {
+    "norwegian": "Jeg kan bruke JavaScript for å lage dynamiske nettsider.",
+    "russian": "Я могу использовать JavaScript для создания динамических веб-сайтов.",
+    "english": "I can use JavaScript to create dynamic websites."
+  },
+  {
+    "norwegian": "Jeg liker å bruke CSS for å gjøre nettsider vakre.",
+    "russian": "Мне нравится использовать CSS, чтобы сделать веб-сайты красивыми.",
+    "english": "I like using CSS to make websites beautiful."
+  },
+  {
+    "norwegian": "Jeg har erfaring med å jobbe i team med utviklere.",
+    "russian": "У меня есть опыт работы в команде с разработчиками.",
+    "english": "I have experience working in a team with developers."
+  },
+  {
+    "norwegian": "Jeg kan lage apper med React Native.",
+    "russian": "Я могу создавать приложения с React Native.",
+    "english": "I can create apps with React Native."
+  },
+  {
+    "norwegian": "Jeg bruker ofte GitHub for å dele koden min med andre.",
+    "russian": "Я часто использую GitHub, чтобы делиться своим кодом с другими.",
+    "english": "I often use GitHub to share my code with others."
+  },
+  {
+    "norwegian": "Jeg liker å lære nye teknologier og verktøy.",
+    "russian": "Мне нравится изучать новые технологии и инструменты.",
+    "english": "I enjoy learning new technologies and tools."
+  },
+  {
+    "norwegian": "Jeg kan jobbe med både frontend- og backend-utvikling.",
+    "russian": "Я могу работать как с фронтенд-, так и с бэкенд-разработкой.",
+    "english": "I can work with both frontend and backend development."
+  },
+  {
+    "norwegian": "Jeg liker å lage apper som hjelper folk i hverdagen.",
+    "russian": "Мне нравится создавать приложения, которые помогают людям в повседневной жизни.",
+    "english": "I enjoy creating apps that help people in their daily lives."
+  },
+  {
+    "norwegian": "Jeg bruker ofte Chrome DevTools for å feilsøke nettsider.",
+    "russian": "Я часто использую Chrome DevTools для отладки веб-сайтов.",
+    "english": "I often use Chrome DevTools to debug websites."
+  },
+
+  {
+    "norwegian": "Jeg kan bruke Git til å spore endringer i koden.",
+    "russian": "Я могу использовать Git для отслеживания изменений в коде.",
+    "english": "I can use Git to track changes in the code."
+  },
+  {
+    "norwegian": "Jeg liker å lage nettsider med moderne design.",
+    "russian": "Мне нравится создавать веб-сайты с современным дизайном.",
+    "english": "I enjoy creating websites with modern design."
+  },
+  {
+    "norwegian": "Jeg kan skrive enkle skript med Python.",
+    "russian": "Я могу писать простые скрипты на Python.",
+    "english": "I can write simple scripts with Python."
+  },
+  {
+    "norwegian": "Jeg liker å bruke APIer for å hente data.",
+    "russian": "Мне нравится использовать API для получения данных.",
+    "english": "I enjoy using APIs to fetch data."
+  },
+  {
+    "norwegian": "Jeg kan jobbe med både SQL og NoSQL databaser.",
+    "russian": "Я могу работать как с SQL, так и с NoSQL базами данных.",
+    "english": "I can work with both SQL and NoSQL databases."
+  },
+  {
+    "norwegian": "Jeg bruker ofte verktøy som Postman for å teste APIer.",
+    "russian": "Я часто использую инструменты, такие как Postman, для тестирования API.",
+    "english": "I often use tools like Postman to test APIs."
+  },
+  {
+    "norwegian": "Jeg kan lage responsivt design med CSS.",
+    "russian": "Я могу создавать адаптивный дизайн с использованием CSS.",
+    "english": "I can create responsive designs with CSS."
+  },
+  {
+    "norwegian": "Jeg liker å samarbeide med andre utviklere på prosjekter.",
+    "russian": "Мне нравится сотрудничать с другими разработчиками над проектами.",
+    "english": "I enjoy collaborating with other developers on projects."
+  },
+  {
+    "norwegian": "Jeg kan skrive ren og godt strukturert kode.",
+    "russian": "Я могу писать чистый и хорошо структурированный код.",
+    "english": "I can write clean and well-structured code."
+  },
+  {
+    "norwegian": "Jeg bruker ofte verktøy som GitHub for å administrere prosjekter.",
+    "russian": "Я часто использую инструменты, такие как GitHub, для управления проектами.",
+    "english": "I often use tools like GitHub to manage projects."
+  },
+  {
+    "norwegian": "Jeg kan lage enkle spill med JavaScript.",
+    "russian": "Я могу создавать простые игры с использованием JavaScript.",
+    "english": "I can create simple games with JavaScript."
+  },
+  {
+    "norwegian": "Jeg liker å bruke CSS Grid for layout.",
+    "russian": "Мне нравится использовать CSS Grid для создания макетов.",
+    "english": "I enjoy using CSS Grid for layout."
+  },
+  {
+    "norwegian": "Jeg kan lage dynamiske websider med AJAX.",
+    "russian": "Я могу создавать динамические веб-страницы с использованием AJAX.",
+    "english": "I can create dynamic web pages with AJAX."
+  },
+  {
+    "norwegian": "Jeg bruker ofte JSON for datautveksling.",
+    "russian": "Я часто использую JSON для обмена данными.",
+    "english": "I often use JSON for data exchange."
+  },
+  {
+    "norwegian": "Jeg kan lage responsivt design med Bootstrap.",
+    "russian": "Я могу создавать адаптивный дизайн с использованием Bootstrap.",
+    "english": "I can create responsive designs with Bootstrap."
+  },
+  {
+    "norwegian": "Jeg liker å lage nettsider med interaktive elementer.",
+    "russian": "Мне нравится создавать веб-сайты с интерактивными элементами.",
+    "english": "I enjoy creating websites with interactive elements."
+  },
+  {
+    "norwegian": "Jeg kan bruke verktøy som Webpack for bygging av prosjekter.",
+    "russian": "Я могу использовать инструменты, такие как Webpack, для сборки проектов.",
+    "english": "I can use tools like Webpack for project building."
+  },
+  {
+    "norwegian": "Jeg liker å jobbe med åpen kildekode-prosjekter.",
+    "russian": "Мне нравится работать над проектами с открытым исходным кодом.",
+    "english": "I enjoy working on open source projects."
+  },
+  {
+    "norwegian": "Jeg kan bruke ulike databaser som MySQL og MongoDB.",
+    "russian": "Я могу работать с различными базами данных, такими как MySQL и MongoDB.",
+    "english": "I can use different databases like MySQL and MongoDB."
+  },
+  {
+    "norwegian": "Jeg liker å lære nye programmeringsspråk og rammeverk.",
+    "russian": "Мне нравится изучать новые языки программирования и фреймворки.",
+    "english": "I enjoy learning new programming languages and frameworks."
+  }
 ];
 
 
