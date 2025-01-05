@@ -1,457 +1,454 @@
 const sentences = [
-  
   {
-    "norwegian": "Jeg liker å lage nettsider med HTML og CSS.",
-    "russian": "Мне нравится создавать веб-сайты с использованием HTML и CSS.",
-    "english": "I enjoy creating websites with HTML and CSS."
+    "norwegian": "Hva synes du om været denne uka?",
+    "russian": "Что ты думаешь о погоде на этой неделе?",
+    "english": "What do you think about the weather this week?"
   },
   {
-    "norwegian": "Jeg kan bruke JavaScript for å gjøre nettsider interaktive.",
-    "russian": "Я могу использовать JavaScript, чтобы сделать веб-сайты интерактивными.",
-    "english": "I can use JavaScript to make websites interactive."
+    "norwegian": "Tror du vi får mer regn i helgen?",
+    "russian": "Думаешь, на выходных будет еще дождь?",
+    "english": "Do you think we'll get more rain this weekend?"
   },
   {
-    "norwegian": "Jeg skriver ofte tester for å sikre at koden fungerer riktig.",
-    "russian": "Я часто пишу тесты, чтобы убедиться, что код работает правильно.",
-    "english": "I often write tests to ensure the code works correctly."
+    "norwegian": "Eleven har vært veldig urolig i det siste, har du noen tips?",
+    "russian": "Ученик был очень беспокойным в последнее время, есть советы?",
+    "english": "The student has been very restless lately, any tips?"
   },
   {
-    "norwegian": "Jeg bruker moderne verktøy som Git for å administrere prosjekter.",
-    "russian": "Я использую современные инструменты, такие как Git, для управления проектами.",
-    "english": "I use modern tools like Git to manage projects."
+    "norwegian": "Hvordan takler du dårlig oppførsel i timen?",
+    "russian": "Как ты справляешься с плохим поведением на уроке?",
+    "english": "How do you handle bad behavior in class?"
   },
   {
-    "norwegian": "Jeg har erfaring med å bruke APIer til å hente data.",
-    "russian": "У меня есть опыт использования API для получения данных.",
-    "english": "I have experience using APIs to fetch data."
+    "norwegian": "Hva er dine tanker om å bruke dårlig vær som en læremulighet?",
+    "russian": "Что ты думаешь о использовании плохой погоды как учебной возможности?",
+    "english": "What are your thoughts on using bad weather as a teaching opportunity?"
   },
   {
-    "norwegian": "Jeg kan jobbe med både frontend- og backend-utvikling.",
-    "russian": "Я могу работать как с фронтенд-, так и с бэкенд-разработкой.",
-    "english": "I can work with both frontend and backend development."
+    "norwegian": "Kan du hjelpe meg med å håndtere en elev som er uoppdragen?",
+    "russian": "Можешь помочь мне справиться с непослушным учеником?",
+    "english": "Can you help me handle a disobedient student?"
   },
   {
-    "norwegian": "Jeg liker å lære nye programmeringsspråk.",
-    "russian": "Мне нравится изучать новые языки программирования.",
-    "english": "I enjoy learning new programming languages."
+    "norwegian": "Hvordan forbereder du elevene på uforutsigbart vær?",
+    "russian": "Как ты готовишь учеников к непредсказуемой погоде?",
+    "english": "How do you prepare students for unpredictable weather?"
   },
   {
-    "norwegian": "Jeg skriver ren og lett forståelig kode.",
-    "russian": "Я пишу чистый и легко понятный код.",
-    "english": "I write clean and easy-to-understand code."
+    "norwegian": "Tror du det vil være snøstorm i morgen?",
+    "russian": "Думаешь, завтра будет метель?",
+    "english": "Do you think there will be a snowstorm tomorrow?"
   },
   {
-    "norwegian": "Jeg liker å jobbe med prosjekter som krever kreativ tenkning.",
-    "russian": "Мне нравится работать над проектами, которые требуют креативного мышления.",
-    "english": "I enjoy working on projects that require creative thinking."
+    "norwegian": "Hva gjør du når en elev er konstant forstyrrende?",
+    "russian": "Что ты делаешь, когда ученик постоянно мешает?",
+    "english": "What do you do when a student is constantly disruptive?"
   },
   {
-    "norwegian": "Jeg bruker ofte Chrome DevTools for å feilsøke nettsider.",
-    "russian": "Я часто использую Chrome DevTools для отладки веб-сайтов.",
-    "english": "I often use Chrome DevTools to debug websites."
-    },
-  
-  {
-    "norwegian": "Jeg bruker ofte Node.js for backend-utvikling.",
-    "russian": "Я часто использую Node.js для бэкенд-разработки.",
-    "english": "I often use Node.js for backend development."
+    "norwegian": "Hvordan forklarer du vitenskapen bak været til elevene?",
+    "russian": "Как ты объясняешь ученикам науку о погоде?",
+    "english": "How do you explain the science behind weather to students?"
   },
   {
-    "norwegian": "Jeg kan lage responsive nettsider med CSS.",
-    "russian": "Я могу создавать адаптивные веб-сайты с использованием CSS.",
-    "english": "I can create responsive websites with CSS."
+    "norwegian": "Hva tror du om været i morgen?",
+    "russian": "Как ты думаешь, какая будет погода завтра?",
+    "english": "What do you think about the weather tomorrow?"
   },
   {
-    "norwegian": "Jeg liker å samarbeide med designere for å lage flotte nettsider.",
-    "russian": "Мне нравится сотрудничать с дизайнерами для создания красивых веб-сайтов.",
-    "english": "I enjoy collaborating with designers to create beautiful websites."
+    "norwegian": "Tror du det vil regne senere i dag?",
+    "russian": "Ты думаешь, что будет дождь сегодня позже?",
+    "english": "Do you think it will rain later today?"
   },
   {
-    "norwegian": "Jeg bruker ofte JSON til å utveksle data mellom server og klient.",
-    "russian": "Я часто использую JSON для обмена данными между сервером и клиентом.",
-    "english": "I often use JSON to exchange data between server and client."
+    "norwegian": "Jeg hørte at det vil bli kaldt denne uken.",
+    "russian": "Я слышал, что на этой неделе будет холодно.",
+    "english": "I heard it will be cold this week."
   },
   {
-    "norwegian": "Jeg har erfaring med å lage brukervennlige grensesnitt.",
-    "russian": "У меня есть опыт создания удобных пользовательских интерфейсов.",
-    "english": "I have experience creating user-friendly interfaces."
+    "norwegian": "Eleven har vært urolig i det siste.",
+    "russian": "Ученик был беспокойным в последнее время.",
+    "english": "The student has been restless lately."
   },
   {
-    "norwegian": "Jeg kan lage apper med React Native.",
-    "russian": "Я могу создавать приложения с React Native.",
-    "english": "I can create apps with React Native."
+    "norwegian": "Hvordan håndterer du elever som forstyrrer i timen?",
+    "russian": "Как ты справляешься с учениками, которые мешают на уроке?",
+    "english": "How do you handle students who disrupt the class?"
   },
   {
-    "norwegian": "Jeg liker å lære nye teknologier og verktøy.",
-    "russian": "Мне нравится изучать новые технологии и инструменты.",
-    "english": "I enjoy learning new technologies and tools."
+    "norwegian": "Hva gjør du når en elev ikke følger reglene?",
+    "russian": "Что ты делаешь, когда ученик не соблюдает правила?",
+    "english": "What do you do when a student doesn't follow the rules?"
   },
   {
-    "norwegian": "Jeg skriver ren og godt strukturert kode.",
-    "russian": "Я пишу чистый и хорошо структурированный код.",
-    "english": "I write clean and well-structured code."
+    "norwegian": "Det ser ut til at vi får snø til helgen.",
+    "russian": "Похоже, что на выходных будет снег.",
+    "english": "It looks like we will get snow this weekend."
   },
   {
-    "norwegian": "Jeg kan jobbe med databasesystemer som MySQL og MongoDB.",
-    "russian": "Я могу работать с системами управления базами данных, такими как MySQL и MongoDB.",
-    "english": "I can work with database systems like MySQL and MongoDB."
+    "norwegian": "Hvordan kan vi forbedre disiplinen i klassen?",
+    "russian": "Как мы можем улучшить дисциплину в классе?",
+    "english": "How can we improve discipline in the classroom?"
   },
   {
-    "norwegian": "Jeg har erfaring med å lage APIer.",
-    "russian": "У меня есть опыт создания API.",
-    "english": "I have experience creating APIs."
+    "norwegian": "Jeg tror det vil være tåkete i morgen tidlig.",
+    "russian": "Я думаю, что завтра утром будет туман.",
+    "english": "I think it will be foggy tomorrow morning."
   },
   {
-    "norwegian": "Jeg liker å bruke verktøy som VS Code for å skrive kode.",
-    "russian": "Мне нравится использовать инструменты, такие как VS Code, для написания кода.",
-    "english": "I enjoy using tools like VS Code to write code."
+    "norwegian": "Hvordan kan vi motivere elevene til å oppføre seg bedre?",
+    "russian": "Как мы можем мотивировать учеников вести себя лучше?",
+    "english": "How can we motivate students to behave better?"
   },
   {
-    "norwegian": "Jeg kan lage enkle APIer med Express.js.",
-    "russian": "Я могу создавать простые API с использованием Express.js.",
-    "english": "I can create simple APIs with Express.js."
+    "norwegian": "Hvordan er været i dag?",
+    "russian": "Как сегодня погода?",
+    "english": "How's the weather today?"
   },
   {
-    "norwegian": "Jeg bruker ofte verktøy som Postman for å teste APIer.",
-    "russian": "Я часто использую инструменты, такие как Postman, для тестирования API.",
-    "english": "I often use tools like Postman to test APIs."
+    "norwegian": "Elevene oppfører seg bra, men noen ganger er de litt urolige.",
+    "russian": "Ученики ведут себя хорошо, но иногда они немного беспокойны.",
+    "english": "The students are behaving well, but sometimes they are a bit restless."
   },
   {
-    "norwegian": "Jeg liker å jobbe med open source-prosjekter.",
-    "russian": "Мне нравится работать с open source проектами.",
-    "english": "I enjoy working on open source projects."
+    "norwegian": "Hvordan kan jeg rose en elev for gode resultater?",
+    "russian": "Как я могу похвалить ученика за хорошие результаты?",
+    "english": "How can I praise a student for good performance?"
   },
   {
-    "norwegian": "Jeg kan bruke TypeScript for å forbedre koden.",
-    "russian": "Я могу использовать TypeScript для улучшения кода.",
-    "english": "I can use TypeScript to improve code."
+    "norwegian": "Eleven er ulydig, men jeg prøver å være forståelsesfull.",
+    "russian": "Ученик непослушный, но я стараюсь быть понимающим.",
+    "english": "The student is disobedient, but I try to be understanding."
   },
   {
-    "norwegian": "Jeg liker å lære om nye rammeverk som Angular og Vue.",
-    "russian": "Мне нравится изучать новые фреймворки, такие как Angular и Vue.",
-    "english": "I enjoy learning about new frameworks like Angular and Vue."
+    "norwegian": "Kan du hjelpe meg med noe i faget ditt?",
+    "russian": "Можешь помочь мне с чем-то по твоему предмету?",
+    "english": "Can you help me with something in your subject?"
   },
   {
-    "norwegian": "Jeg kan lage automatiserte tester med Jest.",
-    "russian": "Я могу создавать автоматизированные тесты с использованием Jest.",
-    "english": "I can create automated tests with Jest."
+    "norwegian": "Hvordan roser du en elev for god innsats?",
+    "russian": "Как ты хвалишь ученика за хорошую работу?",
+    "english": "How do you praise a student for good effort?"
   },
   {
-    "norwegian": "Jeg liker å bruke CSS for å lage vakre nettsider.",
-    "russian": "Мне нравится использовать CSS для создания красивых веб-сайтов.",
-    "english": "I enjoy using CSS to create beautiful websites."
+    "norwegian": "Jeg trenger hjelp med å forstå denne oppgaven.",
+    "russian": "Мне нужна помощь, чтобы понять это задание.",
+    "english": "I need help understanding this assignment."
   },
   {
-    "norwegian": "Jeg kan jobbe med verktøy som Docker for å administrere apper.",
-    "russian": "Я могу работать с инструментами, такими как Docker, для управления приложениями.",
-    "english": "I can work with tools like Docker to manage apps."
+    "norwegian": "Hvordan takler du urolige elever?",
+    "russian": "Как ты справляешься с беспокойными учениками?",
+    "english": "How do you handle restless students?"
   },
   {
-    "norwegian": "Jeg liker å bruke GitHub for å samarbeide med andre utviklere.",
-    "russian": "Мне нравится использовать GitHub для сотрудничества с другими разработчиками.",
-    "english": "I enjoy using GitHub to collaborate with other developers."
+    "norwegian": "Hva gjør du for å forbedre disiplinen i klassen?",
+    "russian": "Что ты делаешь для улучшения дисциплины в классе?",
+    "english": "What do you do to improve discipline in the classroom?"
+  },
+  {
+    "norwegian": "Kan du dele noen tips om hvordan jeg kan engasjere elevene bedre?",
+    "russian": "Можешь поделиться советами, как лучше вовлечь учеников?",
+    "english": "Can you share some tips on how to better engage students?"
+  },
+  {
+    "norwegian": "Hva synes du om å gi elever hjemmelekser?",
+    "russian": "Что ты думаешь о том, чтобы давать ученикам домашние задания?",
+    "english": "What do you think about giving students homework?"
+  },
+  {
+    "norwegian": "Hvordan takler du elever som ikke gjør leksene sine?",
+    "russian": "Как ты справляешься с учениками, которые не делают домашние задания?",
+    "english": "How do you handle students who don't do their homework?"
+  },
+  {
+    "norwegian": "Hva er den beste måten å introdusere et nytt emne på?",
+    "russian": "Как лучше всего вводить новую тему?",
+    "english": "What's the best way to introduce a new topic?"
+  },
+  {
+    "norwegian": "Hvordan holder du elevene motiverte gjennom skoleåret?",
+    "russian": "Как ты поддерживаешь мотивацию учеников в течение учебного года?",
+    "english": "How do you keep students motivated throughout the school year?"
+  },
+  {
+    "norwegian": "Hvilke strategier bruker du for å håndtere bråk i klassen?",
+    "russian": "Какие стратегии ты используешь для борьбы с шумом в классе?",
+    "english": "What strategies do you use to manage noise in the classroom?"
+  },
+  {
+    "norwegian": "Hvordan kan jeg hjelpe en elev som sliter med å forstå materialet?",
+    "russian": "Как я могу помочь ученику, который не понимает материал?",
+    "english": "How can I help a student who is struggling to understand the material?"
+  },
+  {
+    "norwegian": "Kan du anbefale noen gode ressurser for faglig utvikling?",
+    "russian": "Можешь посоветовать хорошие ресурсы для профессионального развития?",
+    "english": "Can you recommend any good resources for professional development?"
+  },
+  {
+    "norwegian": "Hva gjør du for å forberede elevene til prøver?",
+    "russian": "Что ты делаешь, чтобы подготовить учеников к экзаменам?",
+    "english": "What do you do to prepare students for exams?"
+  },
+  {
+    "norwegian": "Hvordan gir du effektiv tilbakemelding til elevene?",
+    "russian": "Как ты даешь эффективную обратную связь ученикам?",
+    "english": "How do you provide effective feedback to students?"
+  },
+  {
+    "norwegian": "Hvordan balanserer du arbeidsmengden mellom undervisning og administrativt arbeid?",
+    "russian": "Как ты балансируешь нагрузку между преподаванием и административной работой?",
+    "english": "How do you balance the workload between teaching and administrative tasks?"
+  },
+  {
+    "norwegian": "Hva tenker du om dagens undervisning?",
+    "russian": "Что ты думаешь о сегодняшнем уроке?",
+    "english": "What do you think about today's lesson?"
+  },
+  {
+    "norwegian": "Elevene var veldig engasjerte i dag, ikke sant?",
+    "russian": "Ученики сегодня были очень вовлечены, правда?",
+    "english": "The students were very engaged today, weren't they?"
+  },
+  {
+    "norwegian": "Hvordan kan vi forbedre samarbeidet mellom lærerne?",
+    "russian": "Как мы можем улучшить сотрудничество между учителями?",
+    "english": "How can we improve collaboration between teachers?"
+  },
+  {
+    "norwegian": "Har du noen ideer til hvordan vi kan gjøre undervisningen mer interaktiv?",
+    "russian": "У тебя есть идеи, как сделать уроки более интерактивными?",
+    "english": "Do you have any ideas on how to make the lessons more interactive?"
+  },
+  {
+    "norwegian": "Hvordan balanserer du strenge og vennlige tilnærminger i undervisningen?",
+    "russian": "Как ты балансируешь строгий и дружелюбный подход в обучении?",
+    "english": "How do you balance strict and friendly approaches in teaching?"
+  },
+  {
+    "norwegian": "Hva gjør du for å holde deg oppdatert på undervisningsmetoder?",
+    "russian": "Что ты делаешь, чтобы быть в курсе новых методов обучения?",
+    "english": "What do you do to stay updated on teaching methods?"
+  },
+  {
+    "norwegian": "Kan vi diskutere noen utfordringer vi har møtt i klassen?",
+    "russian": "Можем ли мы обсудить некоторые проблемы, с которыми столкнулись в классе?",
+    "english": "Can we discuss some challenges we've faced in the classroom?"
+  },
+  {
+    "norwegian": "Hvordan håndterer du konflikter mellom elever?",
+    "russian": "Как ты справляешься с конфликтами между учениками?",
+    "english": "How do you handle conflicts between students?"
+  },
+  {
+    "norwegian": "Hva synes du om å bruke teknologi i undervisningen?",
+    "russian": "Что ты думаешь об использовании технологий в обучении?",
+    "english": "What do you think about using technology in teaching?"
+  },
+  {
+    "norwegian": "Hvordan gir du tilbakemelding på gruppearbeid?",
+    "russian": "Как ты даешь обратную связь по групповым заданиям?",
+    "english": "How do you provide feedback on group work?"
   },
 
   {
-    "norwegian": "Jeg kan bruke AJAX til å lage dynamiske nettsider.",
-    "russian": "Я могу использовать AJAX для создания динамических веб-сайтов.",
-    "english": "I can use AJAX to create dynamic websites."
+    "norwegian": "Hvordan håndterer du en elev som alltid snakker i timen?",
+    "russian": "Как ты справляешься с учеником, который постоянно говорит на уроках?",
+    "english": "How do you handle a student who always talks in class?"
   },
   {
-    "norwegian": "Jeg liker å designe brukergrensesnitt som er enkle å bruke.",
-    "russian": "Мне нравится разрабатывать пользовательские интерфейсы, которые легко использовать.",
-    "english": "I enjoy designing user interfaces that are easy to use."
+    "norwegian": "Hva synes du om å bruke gruppearbeid i undervisningen?",
+    "russian": "Что ты думаешь об использовании групповой работы в обучении?",
+    "english": "What do you think about using group work in teaching?"
   },
   {
-    "norwegian": "Jeg kan jobbe med rammeverk som Bootstrap for å lage responsive design.",
-    "russian": "Я могу работать с фреймворками, такими как Bootstrap, для создания адаптивного дизайна.",
-    "english": "I can work with frameworks like Bootstrap to create responsive designs."
+    "norwegian": "Kan vi samarbeide om å lage en ny undervisningsplan?",
+    "russian": "Можем ли мы сотрудничать, чтобы создать новый план уроков?",
+    "english": "Can we collaborate on creating a new lesson plan?"
   },
   {
-    "norwegian": "Jeg bruker ofte GitHub for å dele koden min med andre.",
-    "russian": "Я часто использую GitHub для того, чтобы делиться своим кодом с другими.",
-    "english": "I often use GitHub to share my code with others."
+    "norwegian": "Hvordan gir du ros til elever som har gjort det bra?",
+    "russian": "Как ты хвалишь учеников, которые хорошо справились?",
+    "english": "How do you praise students who have done well?"
   },
   {
-    "norwegian": "Jeg liker å eksperimentere med nye teknologier i fritiden min.",
-    "russian": "Мне нравится экспериментировать с новыми технологиями в свободное время.",
-    "english": "I enjoy experimenting with new technologies in my free time."
+    "norwegian": "Hva gjør du hvis en elev er veldig stille og ikke deltar i timen?",
+    "russian": "Что ты делаешь, если ученик очень тихий и не участвует в уроке?",
+    "english": "What do you do if a student is very quiet and doesn't participate in class?"
   },
   {
-    "norwegian": "Jeg kan skrive kode som er lett å vedlikeholde og utvide.",
-    "russian": "Я могу писать код, который легко поддерживать и расширять.",
-    "english": "I can write code that is easy to maintain and extend."
+    "norwegian": "Hvordan forbereder du elevene på nasjonale prøver?",
+    "russian": "Как ты готовишь учеников к национальным экзаменам?",
+    "english": "How do you prepare students for national exams?"
   },
   {
-    "norwegian": "Jeg liker å lage apper som hjelper folk i hverdagen.",
-    "russian": "Мне нравится создавать приложения, которые помогают людям в повседневной жизни.",
-    "english": "I enjoy creating apps that help people in their daily lives."
+    "norwegian": "Kan du hjelpe meg med å lage noen undervisningsmateriell?",
+    "russian": "Можешь помочь мне сделать учебные материалы?",
+    "english": "Can you help me create some teaching materials?"
   },
   {
-    "norwegian": "Jeg bruker ofte VS Code for å skrive og teste koden min.",
-    "russian": "Я часто использую VS Code для написания и тестирования своего кода.",
-    "english": "I often use VS Code to write and test my code."
+    "norwegian": "Hvordan håndterer du stress i arbeidshverdagen?",
+    "russian": "Как ты справляешься со стрессом на работе?",
+    "english": "How do you handle stress in your workday?"
   },
   {
-    "norwegian": "Jeg har erfaring med å bruke REST APIer for datainnhenting.",
-    "russian": "У меня есть опыт использования REST API для получения данных.",
-    "english": "I have experience using REST APIs for data fetching."
+    "norwegian": "Hva er din strategi for å håndtere klasser med mange elever?",
+    "russian": "Какая у тебя стратегия для работы с классами, где много учеников?",
+    "english": "What's your strategy for handling large classes?"
   },
   {
-    "norwegian": "Jeg kan jobbe med ulike typer databaser som SQL og NoSQL.",
-    "russian": "Я могу работать с различными типами баз данных, такими как SQL и NoSQL.",
-    "english": "I can work with different types of databases like SQL and NoSQL."
-  }, 
-  {
-    "norwegian": "Jeg kan bruke GitLab til å administrere kodeprosjekter.",
-    "russian": "Я могу использовать GitLab для управления проектами с кодом.",
-    "english": "I can use GitLab to manage code projects."
+    "norwegian": "Hvordan integrerer du teknologi i undervisningen?",
+    "russian": "Как ты интегрируешь технологии в обучение?",
+    "english": "How do you integrate technology into your teaching?"
   },
   {
-    "norwegian": "Jeg liker å utvikle nettsider med moderne rammeverk.",
-    "russian": "Мне нравится разрабатывать веб-сайты с использованием современных фреймворков.",
-    "english": "I enjoy developing websites with modern frameworks."
+    "norwegian": "Hvordan kan jeg forbedre elevene sine leseferdigheter?",
+    "russian": "Как я могу улучшить навыки чтения учеников?",
+    "english": "How can I improve the students' reading skills?"
   },
   {
-    "norwegian": "Jeg har erfaring med å jobbe i team med utviklere.",
-    "russian": "У меня есть опыт работы в команде с разработчиками.",
-    "english": "I have experience working in a team with developers."
+    "norwegian": "Hva er noen gode metoder for å undervise matematikk?",
+    "russian": "Какие есть хорошие методы для преподавания математики?",
+    "english": "What are some good methods for teaching math?"
   },
   {
-    "norwegian": "Jeg kan lage enkle mobilapper med React Native.",
-    "russian": "Я могу создавать простые мобильные приложения с React Native.",
-    "english": "I can create simple mobile apps with React Native."
+    "norwegian": "Kan du hjelpe meg med å organisere et foreldremøte?",
+    "russian": "Можешь помочь мне организовать родительское собрание?",
+    "english": "Can you help me organize a parent-teacher meeting?"
   },
   {
-    "norwegian": "Jeg bruker ofte Chrome DevTools for å feilsøke problemer.",
-    "russian": "Я часто использую Chrome DevTools для отладки проблем.",
-    "english": "I often use Chrome DevTools to debug issues."
+    "norwegian": "Hvordan integrerer du prosjekter i undervisningsplanen?",
+    "russian": "Как ты интегрируешь проекты в учебный план?",
+    "english": "How do you integrate projects into the curriculum?"
   },
   {
-    "norwegian": "Jeg liker å lage nettsider som fungerer bra på alle enheter.",
-    "russian": "Мне нравится создавать веб-сайты, которые хорошо работают на всех устройствах.",
-    "english": "I enjoy creating websites that work well on all devices."
+    "norwegian": "Hva er den beste måten å håndtere elever med spesielle behov?",
+    "russian": "Как лучше всего справляться с учениками с особыми потребностями?",
+    "english": "What's the best way to handle students with special needs?"
   },
   {
-    "norwegian": "Jeg kan jobbe med databaser som MySQL og PostgreSQL.",
-    "russian": "Я могу работать с базами данных, такими как MySQL и PostgreSQL.",
-    "english": "I can work with databases like MySQL and PostgreSQL."
+    "norwegian": "Kan du dele noen suksesshistorier fra din undervisning?",
+    "russian": "Можешь поделиться успешными историями из твоей практики?",
+    "english": "Can you share some success stories from your teaching?"
   },
   {
-    "norwegian": "Jeg liker å lage apper som hjelper folk i hverdagen.",
-    "russian": "Мне нравится создавать приложения, которые помогают людям в повседневной жизни.",
-    "english": "I enjoy creating apps that help people in their daily lives."
+    "norwegian": "Hvordan kan vi engasjere foreldrene i elevenes læring?",
+    "russian": "Как мы можем вовлечь родителей в обучение учеников?",
+    "english": "How can we engage parents in the students' learning?"
   },
   {
-    "norwegian": "Jeg bruker ofte verktøy som Figma for design.",
-    "russian": "Я часто использую инструменты, такие как Figma, для дизайна.",
-    "english": "I often use tools like Figma for design."
+    "norwegian": "Hva er dine erfaringer med å bruke digitale verktøy i klasserommet?",
+    "russian": "Какой у тебя опыт использования цифровых инструментов в классе?",
+    "english": "What are your experiences with using digital tools in the classroom?"
   },
   {
-    "norwegian": "Jeg har erfaring med å jobbe med APIer for datainnhenting.",
-    "russian": "У меня есть опыт работы с API для получения данных.",
-    "english": "I have experience working with APIs for data fetching."
+    "norwegian": "Hvordan kan vi motivere elever som har liten interesse for skolearbeid?",
+    "russian": "Как мы можем мотивировать учеников, которые не заинтересованы в учебе?",
+    "english": "How can we motivate students who have little interest in schoolwork?"
   },
   {
-    "norwegian": "Jeg kan bruke verktøy som Jenkins for kontinuerlig integrasjon.",
-    "russian": "Я могу использовать инструменты, такие как Jenkins, для непрерывной интеграции.",
-    "english": "I can use tools like Jenkins for continuous integration."
+    "norwegian": "Hva er noen effektive strategier for å undervise i naturfag?",
+    "russian": "Какие есть эффективные стратегии для преподавания естественных наук?",
+    "english": "What are some effective strategies for teaching science?"
   },
   {
-    "norwegian": "Jeg liker å lage nettsider som laster raskt.",
-    "russian": "Мне нравится создавать веб-сайты, которые быстро загружаются.",
-    "english": "I enjoy creating websites that load quickly."
+    "norwegian": "Hvordan planlegger du timeplanen for å sikre at alle emner dekkes?",
+    "russian": "Как ты планируешь расписание, чтобы все темы были охвачены?",
+    "english": "How do you plan your schedule to ensure all topics are covered?"
   },
   {
-    "norwegian": "Jeg kan jobbe med forskjellige datastrukturer og algoritmer.",
-    "russian": "Я могу работать с различными структурами данных и алгоритмами.",
-    "english": "I can work with different data structures and algorithms."
+    "norwegian": "Hva er dine erfaringer med å undervise på ulike klassetrinn?",
+    "russian": "Какой у тебя опыт преподавания в разных классах?",
+    "english": "What are your experiences teaching different grade levels?"
   },
   {
-    "norwegian": "Jeg liker å lage brukervennlige grensesnitt med HTML og CSS.",
-    "russian": "Мне нравится создавать удобные пользовательские интерфейсы с использованием HTML и CSS.",
-    "english": "I enjoy creating user-friendly interfaces with HTML and CSS."
+    "norwegian": "Hvordan håndterer du situasjoner med mobbing i klassen?",
+    "russian": "Как ты справляешься с ситуациями с буллингом в классе?",
+    "english": "How do you handle bullying situations in the classroom?"
   },
   {
-    "norwegian": "Jeg har erfaring med å bruke Node.js for serverutvikling.",
-    "russian": "У меня есть опыт использования Node.js для разработки серверов.",
-    "english": "I have experience using Node.js for server development."
+    "norwegian": "Kan du anbefale noen aktiviteter for å fremme samarbeid mellom elevene?",
+    "russian": "Можешь порекомендовать какие-нибудь занятия для продвижения сотрудничества между учениками?",
+    "english": "Can you recommend any activities to promote cooperation among students?"
   },
   {
-    "norwegian": "Jeg liker å bruke TypeScript for å skrive tydelig kode.",
-    "russian": "Мне нравится использовать TypeScript для написания понятного кода.",
-    "english": "I enjoy using TypeScript to write clear code."
+    "norwegian": "Hvordan integrerer du lek i læringsprosessen?",
+    "russian": "Как ты интегрируешь игру в учебный процесс?",
+    "english": "How do you integrate play into the learning process?"
   },
   {
-    "norwegian": "Jeg kan bruke GitHub Actions for automatisering av arbeidsflyt.",
-    "russian": "Я могу использовать GitHub Actions для автоматизации рабочих процессов.",
-    "english": "I can use GitHub Actions for workflow automation."
+    "norwegian": "Hva er de største utfordringene du har møtt som lærer?",
+    "russian": "Какие самые большие вызовы ты встретил как учитель?",
+    "english": "What are the biggest challenges you have faced as a teacher?"
   },
   {
-    "norwegian": "Jeg har erfaring med å lage interaktive websider.",
-    "russian": "У меня есть опыт создания интерактивных веб-страниц.",
-    "english": "I have experience creating interactive web pages."
+    "norwegian": "Hvordan kan vi støtte elever med ulik kulturell bakgrunn?",
+    "russian": "Как мы можем поддержать учеников с различным культурным происхождением?",
+    "english": "How can we support students from different cultural backgrounds?"
   },
   {
-    "norwegian": "Jeg liker å eksperimentere med nye JavaScript-biblioteker.",
-    "russian": "Мне нравится экспериментировать с новыми библиотеками JavaScript.",
-    "english": "I enjoy experimenting with new JavaScript libraries."
+    "norwegian": "Hva er noen gode strategier for å håndtere elevens atferdsproblemer?",
+    "russian": "Какие есть хорошие стратегии для решения проблем поведения у учеников?",
+    "english": "What are some good strategies for handling student behavior issues?"
   },
   {
-    "norwegian": "Jeg kan jobbe med både SQL og NoSQL databaser.",
-    "russian": "Я могу работать как с SQL, так и с NoSQL базами данных.",
-    "english": "I can work with both SQL and NoSQL databases."
+    "norwegian": "Kan du dele noen gode metoder for å forbedre elevernes skriving?",
+    "russian": "Можешь поделиться хорошими методами для улучшения письма учеников?",
+    "english": "Can you share some good methods for improving students' writing?"
   },
   {
-    "norwegian": "Jeg liker å lage responsive nettsider.",
-    "russian": "Мне нравится создавать адаптивные веб-сайты.",
-    "english": "I enjoy creating responsive websites."
+    "norwegian": "Hvordan kan vi gjøre læringen mer relevant for elevenes liv?",
+    "russian": "Как мы можем сделать обучение более актуальным для жизни учеников?",
+    "english": "How can we make learning more relevant to students' lives?"
   },
   {
-    "norwegian": "Jeg kan bruke JavaScript for å lage dynamiske nettsider.",
-    "russian": "Я могу использовать JavaScript для создания динамических веб-сайтов.",
-    "english": "I can use JavaScript to create dynamic websites."
+    "norwegian": "Hvordan tilpasser du undervisningen til forskjellige læringsstiler?",
+    "russian": "Как ты адаптируешь обучение под разные стили обучения?",
+    "english": "How do you adapt teaching to different learning styles?"
   },
   {
-    "norwegian": "Jeg liker å bruke CSS for å gjøre nettsider vakre.",
-    "russian": "Мне нравится использовать CSS, чтобы сделать веб-сайты красивыми.",
-    "english": "I like using CSS to make websites beautiful."
+    "norwegian": "Hva er dine beste tips for å håndtere tid i klasserommet effektivt?",
+    "russian": "Какие у тебя лучшие советы по эффективному управлению временем в классе?",
+    "english": "What are your best tips for managing time effectively in the classroom?"
   },
   {
-    "norwegian": "Jeg har erfaring med å jobbe i team med utviklere.",
-    "russian": "У меня есть опыт работы в команде с разработчиками.",
-    "english": "I have experience working in a team with developers."
+    "norwegian": "Hvordan kan vi fremme kritisk tenkning hos elevene?",
+    "russian": "Как мы можем развивать критическое мышление у учеников?",
+    "english": "How can we promote critical thinking in students?"
   },
   {
-    "norwegian": "Jeg kan lage apper med React Native.",
-    "russian": "Я могу создавать приложения с React Native.",
-    "english": "I can create apps with React Native."
+    "norwegian": "Hva er noen kreative måter å undervise i historie på?",
+    "russian": "Какие есть креативные способы преподавания истории?",
+    "english": "What are some creative ways to teach history?"
   },
   {
-    "norwegian": "Jeg bruker ofte GitHub for å dele koden min med andre.",
-    "russian": "Я часто использую GitHub, чтобы делиться своим кодом с другими.",
-    "english": "I often use GitHub to share my code with others."
+    "norwegian": "Hvordan samarbeider du med foreldre om elevenes framgang?",
+    "russian": "Как ты сотрудничаешь с родителями по поводу прогресса учеников?",
+    "english": "How do you collaborate with parents on students' progress?"
   },
   {
-    "norwegian": "Jeg liker å lære nye teknologier og verktøy.",
-    "russian": "Мне нравится изучать новые технологии и инструменты.",
-    "english": "I enjoy learning new technologies and tools."
+    "norwegian": "Kan du dele noen effektive teknikker for å undervise i grammatikk?",
+    "russian": "Можешь поделиться эффективными техниками для преподавания грамматики?",
+    "english": "Can you share some effective techniques for teaching grammar?"
   },
   {
-    "norwegian": "Jeg kan jobbe med både frontend- og backend-utvikling.",
-    "russian": "Я могу работать как с фронтенд-, так и с бэкенд-разработкой.",
-    "english": "I can work with both frontend and backend development."
+    "norwegian": "Hvordan motiverer du elever til å delta i diskusjoner?",
+    "russian": "Как ты мотивируешь учеников участвовать в обсуждениях?",
+    "english": "How do you motivate students to participate in discussions?"
   },
   {
-    "norwegian": "Jeg liker å lage apper som hjelper folk i hverdagen.",
-    "russian": "Мне нравится создавать приложения, которые помогают людям в повседневной жизни.",
-    "english": "I enjoy creating apps that help people in their daily lives."
+    "norwegian": "Hva er noen gode strategier for å undervise i geografi?",
+    "russian": "Какие есть хорошие стратегии для преподавания географии?",
+    "english": "What are some good strategies for teaching geography?"
   },
   {
-    "norwegian": "Jeg bruker ofte Chrome DevTools for å feilsøke nettsider.",
-    "russian": "Я часто использую Chrome DevTools для отладки веб-сайтов.",
-    "english": "I often use Chrome DevTools to debug websites."
-  },
-
-  {
-    "norwegian": "Jeg kan bruke Git til å spore endringer i koden.",
-    "russian": "Я могу использовать Git для отслеживания изменений в коде.",
-    "english": "I can use Git to track changes in the code."
+    "norwegian": "Hvordan gir du tilbakemelding som elever kan bruke for å forbedre seg?",
+    "russian": "Как ты даешь обратную связь, которую ученики могут использовать для улучшения?",
+    "english": "How do you provide feedback that students can use to improve?"
   },
   {
-    "norwegian": "Jeg liker å lage nettsider med moderne design.",
-    "russian": "Мне нравится создавать веб-сайты с современным дизайном.",
-    "english": "I enjoy creating websites with modern design."
-  },
-  {
-    "norwegian": "Jeg kan skrive enkle skript med Python.",
-    "russian": "Я могу писать простые скрипты на Python.",
-    "english": "I can write simple scripts with Python."
-  },
-  {
-    "norwegian": "Jeg liker å bruke APIer for å hente data.",
-    "russian": "Мне нравится использовать API для получения данных.",
-    "english": "I enjoy using APIs to fetch data."
-  },
-  {
-    "norwegian": "Jeg kan jobbe med både SQL og NoSQL databaser.",
-    "russian": "Я могу работать как с SQL, так и с NoSQL базами данных.",
-    "english": "I can work with both SQL and NoSQL databases."
-  },
-  {
-    "norwegian": "Jeg bruker ofte verktøy som Postman for å teste APIer.",
-    "russian": "Я часто использую инструменты, такие как Postman, для тестирования API.",
-    "english": "I often use tools like Postman to test APIs."
-  },
-  {
-    "norwegian": "Jeg kan lage responsivt design med CSS.",
-    "russian": "Я могу создавать адаптивный дизайн с использованием CSS.",
-    "english": "I can create responsive designs with CSS."
-  },
-  {
-    "norwegian": "Jeg liker å samarbeide med andre utviklere på prosjekter.",
-    "russian": "Мне нравится сотрудничать с другими разработчиками над проектами.",
-    "english": "I enjoy collaborating with other developers on projects."
-  },
-  {
-    "norwegian": "Jeg kan skrive ren og godt strukturert kode.",
-    "russian": "Я могу писать чистый и хорошо структурированный код.",
-    "english": "I can write clean and well-structured code."
-  },
-  {
-    "norwegian": "Jeg bruker ofte verktøy som GitHub for å administrere prosjekter.",
-    "russian": "Я часто использую инструменты, такие как GitHub, для управления проектами.",
-    "english": "I often use tools like GitHub to manage projects."
-  },
-  {
-    "norwegian": "Jeg kan lage enkle spill med JavaScript.",
-    "russian": "Я могу создавать простые игры с использованием JavaScript.",
-    "english": "I can create simple games with JavaScript."
-  },
-  {
-    "norwegian": "Jeg liker å bruke CSS Grid for layout.",
-    "russian": "Мне нравится использовать CSS Grid для создания макетов.",
-    "english": "I enjoy using CSS Grid for layout."
-  },
-  {
-    "norwegian": "Jeg kan lage dynamiske websider med AJAX.",
-    "russian": "Я могу создавать динамические веб-страницы с использованием AJAX.",
-    "english": "I can create dynamic web pages with AJAX."
-  },
-  {
-    "norwegian": "Jeg bruker ofte JSON for datautveksling.",
-    "russian": "Я часто использую JSON для обмена данными.",
-    "english": "I often use JSON for data exchange."
-  },
-  {
-    "norwegian": "Jeg kan lage responsivt design med Bootstrap.",
-    "russian": "Я могу создавать адаптивный дизайн с использованием Bootstrap.",
-    "english": "I can create responsive designs with Bootstrap."
-  },
-  {
-    "norwegian": "Jeg liker å lage nettsider med interaktive elementer.",
-    "russian": "Мне нравится создавать веб-сайты с интерактивными элементами.",
-    "english": "I enjoy creating websites with interactive elements."
-  },
-  {
-    "norwegian": "Jeg kan bruke verktøy som Webpack for bygging av prosjekter.",
-    "russian": "Я могу использовать инструменты, такие как Webpack, для сборки проектов.",
-    "english": "I can use tools like Webpack for project building."
-  },
-  {
-    "norwegian": "Jeg liker å jobbe med åpen kildekode-prosjekter.",
-    "russian": "Мне нравится работать над проектами с открытым исходным кодом.",
-    "english": "I enjoy working on open source projects."
-  },
-  {
-    "norwegian": "Jeg kan bruke ulike databaser som MySQL og MongoDB.",
-    "russian": "Я могу работать с различными базами данных, такими как MySQL и MongoDB.",
-    "english": "I can use different databases like MySQL and MongoDB."
-  },
-  {
-    "norwegian": "Jeg liker å lære nye programmeringsspråk og rammeverk.",
-    "russian": "Мне нравится изучать новые языки программирования и фреймворки.",
-    "english": "I enjoy learning new programming languages and frameworks."
+    "norwegian": "Kan du anbefale noen teknikker for å gjøre undervisningen mer engasjerende?",
+    "russian": "Можешь порекомендовать техники для того, чтобы сделать обучение более интересным?",
+    "english": "Can you recommend any techniques to make teaching more engaging?"
   }
 ];
 
