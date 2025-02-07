@@ -1,452 +1,103 @@
  [
-  {
-    "norwegian": "Krigen i Ukraina er vanskelig og påvirker mange mennesker.",
-    "russian": "Война в Украине трудная и затрагивает многих людей.",
-    "english": "The war in Ukraine is difficult and affects many people."
-  },
-  {
-    "norwegian": "Situasjonen i Midtøsten er fortsatt spent.",
-    "russian": "Ситуация на Ближнем Востоке остается напряженной.",
-    "english": "The situation in the Middle East remains tense."
-  },
-  {
-    "norwegian": "Trump har gjort mange endringer i USA.",
-    "russian": "Трамп внес много изменений в США.",
-    "english": "Trump has made many changes in the USA."
-  },
-  {
-    "norwegian": "Norge spiller en viktig rolle i verdenspolitikken.",
-    "russian": "Норвегия играет важную роль в мировой политике.",
-    "english": "Norway plays an important role in world politics."
-  },
-  {
-    "norwegian": "Krigen i Ukraina har store konsekvenser for Europa.",
-    "russian": "Война в Украине имеет большие последствия для Европы.",
-    "english": "The war in Ukraine has big consequences for Europe."
-  },
-  {
-    "norwegian": "Forholdet mellom Israel og Palestina er komplekst.",
-    "russian": "Отношения между Израилем и Палестиной сложные.",
-    "english": "The relationship between Israel and Palestine is complex."
-  },
-  {
-    "norwegian": "Trump er kjent for sin uvanlige politiske stil.",
-    "russian": "Трамп известен своим необычным политическим стилем.",
-    "english": "Trump is known for his unusual political style."
-  },
-  {
-    "norwegian": "Norge støtter fredsforhandlinger i verden.",
-    "russian": "Норвегия поддерживает мирные переговоры в мире.",
-    "english": "Norway supports peace negotiations in the world."
-  },
-  {
-    "norwegian": "Konflikter i Midtøsten skaper mange flyktninger.",
-    "russian": "Конфликты на Ближнем Востоке создают много беженцев.",
-    "english": "Conflicts in the Middle East create many refugees."
-  },
-  {
-    "norwegian": "Norge arbeider for å beskytte miljøet globalt.",
-    "russian": "Норвегия работает над охраной окружающей среды во всем мире.",
-    "english": "Norway works to protect the environment globally."
-  },
-  {
-    "norwegian": "Valget i USA har ført til mange diskusjoner om demokrati.",
-    "russian": "Выборы в США привели к множеству обсуждений о демократии.",
-    "english": "The election in the USA has led to many discussions about democracy."
-  },
-  {
-    "norwegian": "Flyktningskrisen påvirker mange land i Europa.",
-    "russian": "Кризис беженцев затрагивает многие страны в Европе.",
-    "english": "The refugee crisis affects many countries in Europe."
-  },
-  {
-    "norwegian": "Det er viktig å forstå konflikten i Gaza.",
-    "russian": "Важно понимать конфликт в Газе.",
-    "english": "It is important to understand the conflict in Gaza."
-  },
-  {
-    "norwegian": "Norges rolle i NATO er viktig for sikkerheten.",
-    "russian": "Роль Норвегии в НАТО важна для безопасности.",
-    "english": "Norway's role in NATO is important for security."
-  },
-  {
-    "norwegian": "Brexit har hatt stor innflytelse på Europa.",
-    "russian": "Brexit оказал большое влияние на Европу.",
-    "english": "Brexit has had a big impact on Europe."
-  },
-  {
-    "norwegian": "Forhandlinger om fred er nødvendige i Midtøsten.",
-    "russian": "Переговоры о мире необходимы на Ближнем Востоке.",
-    "english": "Peace negotiations are necessary in the Middle East."
-  },
-  {
-    "norwegian": "Norge bidrar til humanitær hjelp i konfliktområder.",
-    "russian": "Норвегия вносит вклад в гуманитарную помощь в зонах конфликтов.",
-    "english": "Norway contributes to humanitarian aid in conflict areas."
-  },
-  {
-    "norwegian": "Politikken til Trump har endret USAs forhold til andre land.",
-    "russian": "Политика Трампа изменила отношения США с другими странами.",
-    "english": "Trump's policies have changed the USA's relations with other countries."
-  },
-  {
-    "norwegian": "Konflikten i Ukraina påvirker verdensøkonomien.",
-    "russian": "Конфликт в Украине влияет на мировую экономику.",
-    "english": "The conflict in Ukraine affects the global economy."
-  },
-  {
-    "norwegian": "Norge jobber for å oppnå klimamålene internasjonalt.",
-    "russian": "Норвегия работает над достижением климатических целей на международном уровне.",
-    "english": "Norway is working to achieve climate goals internationally."
-  },
-  {
-    "norwegian": "Norge jobber for fred i verden.",
-    "russian": "Норвегия работает для мира в мире.",
-    "english": "Norway works for peace in the world."
-  },
-  {
-    "norwegian": "Norge er et viktig medlem av NATO.",
-    "russian": "Норвегия является важным членом НАТО.",
-    "english": "Norway is an important member of NATO."
-  },
-  {
-    "norwegian": "Trump har påvirket amerikansk politikk mye.",
-    "russian": "Трамп сильно повлиял на американскую политику.",
-    "english": "Trump has influenced American politics a lot."
-  },
-  {
-    "norwegian": "Konflikten i Gaza skaper mye lidelse.",
-    "russian": "Конфликт в Газе вызывает много страданий.",
-    "english": "The conflict in Gaza causes a lot of suffering."
-  },
-  {
-    "norwegian": "Krigen i Ukraina har stor påvirkning på verden.",
-    "russian": "Война в Украине сильно влияет на мир.",
-    "english": "The war in Ukraine has a big impact on the world."
-  },
-  {
-    "norwegian": "Norge hjelper andre land med humanitær hjelp.",
-    "russian": "Норвегия помогает другим странам с гуманитарной помощью.",
-    "english": "Norway helps other countries with humanitarian aid."
-  },
-  {
-    "norwegian": "Midtøsten trenger fred og stabilitet.",
-    "russian": "Ближнему Востоку нужны мир и стабильность.",
-    "english": "The Middle East needs peace and stability."
-  },
-  {
-    "norwegian": "Trump er en kontroversiell figur i politikken.",
-    "russian": "Трамп является спорной фигурой в политике.",
-    "english": "Trump is a controversial figure in politics."
-  },
-  {
-    "norwegian": "Norge støtter klimainitiativer internasjonalt.",
-    "russian": "Норвегия поддерживает климатические инициативы на международном уровне.",
-    "english": "Norway supports climate initiatives internationally."
-  },
-  {
-    "norwegian": "Konflikten i Ukraina skaper store problemer.",
-    "russian": "Конфликт в Украине вызывает большие проблемы.",
-    "english": "The conflict in Ukraine creates big problems."
-  },
-  {
-    "norwegian": "BlackRock har stor innflytelse på verdensøkonomien.",
-    "russian": "BlackRock оказывает значительное влияние на мировую экономику.",
-    "english": "BlackRock has a significant influence on the global economy."
-  },
-  {
-    "norwegian": "BlackRock investerer i teknologi og energi.",
-    "russian": "BlackRock инвестирует в технологии и энергию.",
-    "english": "BlackRock invests in technology and energy."
-  },
-  {
-    "norwegian": "BlackRock hjelper med risikostyring for mange land.",
-    "russian": "BlackRock помогает с управлением рисками для многих стран.",
-    "english": "BlackRock helps with risk management for many countries."
-  },
-  {
-    "norwegian": "BlackRock jobber for å forbedre infrastruktur i verden.",
-    "russian": "BlackRock работает над улучшением инфраструктуры в мире.",
-    "english": "BlackRock works to improve infrastructure globally."
-  },
-  {
-    "norwegian": "BlackRock har en stor rolle i global finans.",
-    "russian": "BlackRock играет большую роль в глобальных финансах.",
-    "english": "BlackRock plays a big role in global finance."
-  },
-  {
-    "norwegian": "BlackRock påvirker investeringsstrategier internasjonalt.",
-    "russian": "BlackRock влияет на международные инвестиционные стратегии.",
-    "english": "BlackRock influences international investment strategies."
+{
+    "norwegian": "Jeg er punktlig og kommer alltid i tide.",
+    "russian": "Я пунктуальный и всегда прихожу вовремя.",
+    "english": "I am punctual and always arrive on time."
   },
   {
-    "norwegian": "BlackRock jobber med å sikre økonomisk stabilitet.",
-    "russian": "BlackRock работает над обеспечением экономической стабильности.",
-    "english": "BlackRock works to ensure economic stability."
+    "norwegian": "Jeg jobber godt i team og samarbeider med andre.",
+    "russian": "Я хорошо работаю в команде и сотрудничаю с другими.",
+    "english": "I work well in a team and collaborate with others."
   },
   {
-    "norwegian": "BlackRock har stor innflytelse på markedet.",
-    "russian": "BlackRock оказывает значительное влияние на рынок.",
-    "english": "BlackRock has a significant influence on the market."
+    "norwegian": "Jeg har gode kommunikasjonsevner.",
+    "russian": "У меня хорошие коммуникативные навыки.",
+    "english": "I have good communication skills."
   },
   {
-    "norwegian": "BlackRock investerer i bærekraftig utvikling.",
-    "russian": "BlackRock инвестирует в устойчивое развитие.",
-    "english": "BlackRock invests in sustainable development."
+    "norwegian": "Jeg er fleksibel og kan tilpasse meg endringer.",
+    "russian": "Я гибкий и могу адаптироваться к изменениям.",
+    "english": "I am flexible and can adapt to changes."
   },
   {
-    "norwegian": "BlackRock jobber for å forbedre global økonomi.",
-    "russian": "BlackRock работает над улучшением глобальной экономики.",
-    "english": "BlackRock works to improve the global economy."
+    "norwegian": "Jeg er motivert og jobber hardt for å nå mine mål.",
+    "russian": "Я мотивирован и усердно работаю, чтобы достичь своих целей.",
+    "english": "I am motivated and work hard to achieve my goals."
   },
   {
-    "norwegian": "BlackRock påvirker global økonomi betydelig.",
-    "russian": "BlackRock значительно влияет на мировую экономику.",
-    "english": "BlackRock significantly influences the global economy."
+    "norwegian": "Jeg er kreativ og finner nye løsninger på problemer.",
+    "russian": "Я креативен и нахожу новые решения для проблем.",
+    "english": "I am creative and find new solutions to problems."
   },
   {
-    "norwegian": "BlackRock investerer i mange sektorer over hele verden.",
-    "russian": "BlackRock инвестирует в различные секторы по всему миру.",
-    "english": "BlackRock invests in many sectors around the world."
+    "norwegian": "Jeg har god tidshåndtering og prioriterer oppgaver godt.",
+    "russian": "У меня хорошее управление временем, и я хорошо расставляю приоритеты.",
+    "english": "I have good time management and prioritize tasks well."
   },
   {
-    "norwegian": "BlackRock bidrar til økonomisk vekst gjennom investeringer.",
-    "russian": "BlackRock способствует экономическому росту через инвестиции.",
-    "english": "BlackRock contributes to economic growth through investments."
+    "norwegian": "Jeg er ansvarsfull og tar eierskap til mitt arbeid.",
+    "russian": "Я ответственный и беру на себя ответственность за свою работу.",
+    "english": "I am responsible and take ownership of my work."
   },
   {
-    "norwegian": "Norge støtter FN i mange internasjonale spørsmål.",
-    "russian": "Норвегия поддерживает ООН по многим международным вопросам.",
-    "english": "Norway supports the UN on many international issues."
+    "norwegian": "Jeg er detaljorientert og nøyaktig i mitt arbeid.",
+    "russian": "Я внимателен к деталям и точен в своей работе.",
+    "english": "I am detail-oriented and accurate in my work."
   },
   {
-    "norwegian": "Trump har introdusert mange nye økonomiske tiltak.",
-    "russian": "Трамп ввел много новых экономических мер.",
-    "english": "Trump has introduced many new economic measures."
-  },
-  {
-    "norwegian": "Konflikten i Gaza påvirker sikkerhet og stabilitet i regionen.",
-    "russian": "Конфликт в Газе влияет на безопасность и стабильность в регионе.",
-    "english": "The conflict in Gaza affects security and stability in the region."
-  },
-  {
-    "norwegian": "Norge arbeider for bærekraftig utvikling globalt.",
-    "russian": "Норвегия работает над устойчивым развитием в глобальном масштабе.",
-    "english": "Norway works for sustainable development globally."
-  },
-  {
-    "norwegian": "BlackRock støtter bærekraftige investeringer.",
-    "russian": "BlackRock поддерживает устойчивые инвестиции.",
-    "english": "BlackRock supports sustainable investments."
-  },
-  {
-    "norwegian": "Trump's politikk har påvirket globale markeder.",
-    "russian": "Политика Трампа повлияла на мировые рынки.",
-    "english": "Trump's policies have affected global markets."
-  },
-  {
-    "norwegian": "Norge spiller en sentral rolle i klimaforhandlinger.",
-    "russian": "Норвегия играет центральную роль в климатических переговорах.",
-    "english": "Norway plays a central role in climate negotiations."
-  },
-  {
-    "norwegian": "BlackRock investerer i både utviklede og fremvoksende markeder.",
-    "russian": "BlackRock инвестирует в как развитые, так и развивающиеся рынки.",
-    "english": "BlackRock invests in both developed and emerging markets."
-  },
-  {
-    "norwegian": "BlackRock har påvirket investeringer i fornybar energi.",
-    "russian": "BlackRock повлиял на инвестиции в возобновляемую энергию.",
-    "english": "BlackRock has impacted investments in renewable energy."
-  },
-  {
-    "norwegian": "Norge samarbeider med andre land om klimaendringer.",
-    "russian": "Норвегия сотрудничает с другими странами по вопросам изменения климата.",
-    "english": "Norway cooperates with other countries on climate change."
-  },
-  {
-    "norwegian": "BlackRock har en viktig rolle i globale finansmarkeder.",
-    "russian": "BlackRock играет важную роль на мировых финансовых рынках.",
-    "english": "BlackRock plays an important role in global financial markets."
-  },
-  {
-    "norwegian": "Norge arbeider for internasjonal utvikling og bistand.",
-    "russian": "Норвегия работает над международным развитием и помощью.",
-    "english": "Norway works for international development and aid."
-  },
-  {
-    "norwegian": "BlackRock bidrar til stabilitet i økonomiske systemer.",
-    "russian": "BlackRock способствует стабильности экономических систем.",
-    "english": "BlackRock contributes to stability in economic systems."
-  },
-  {
-    "norwegian": "Trump har skapt debatt om innvandringspolitikk.",
-    "russian": "Трамп вызвал дебаты о политике иммиграции.",
-    "english": "Trump has sparked debate on immigration policy."
-  },
-  {
-    "norwegian": "Konflikten i Ukraina har ført til økonomiske sanksjoner.",
-    "russian": "Конфликт в Украине привел к экономическим санкциям.",
-    "english": "The conflict in Ukraine has led to economic sanctions."
-  },
-  {
-    "norwegian": "Norge har en sterk posisjon i verdenspolitikken.",
-    "russian": "Норвегия занимает сильную позицию в мировой политике.",
-    "english": "Norway has a strong position in world politics."
-  },
-  {
-    "norwegian": "BlackRock påvirker selskapers ESG-strategier.",
-    "russian": "BlackRock влияет на ESG-стратегии компаний.",
-    "english": "BlackRock influences companies' ESG strategies."
-  },
-  {
-    "norwegian": "Korupsjon i Ukraina er et stort problem for økonomisk utvikling.",
-    "russian": "Коррупция в Украине является большой проблемой для экономического развития.",
-    "english": "Corruption in Ukraine is a big problem for economic development."
-  },
-  {
-    "norwegian": "Det er rapportert om alvorlige menneskerettighetsbrudd i TCC.",
-    "russian": "Сообщается о серьезных нарушениях прав человека в ТЦК.",
-    "english": "There have been reports of serious human rights abuses in the TCC."
-  },
-  {
-    "norwegian": "Folk blir tvunget til å kjempe i TCC i Ukraina.",
-    "russian": "Людей заставляют воевать в ТЦК в Украине.",
-    "english": "People are forced to fight in the TCC in Ukraine."
-  },
-  {
-    "norwegian": "Trump har hatt stor innvirkning på gasssektoren.",
-    "russian": "Трамп оказал значительное влияние на газовую отрасль.",
-    "english": "Trump has had a significant impact on the gas sector."
-  },
-  {
-    "norwegian": "Norge spiller en viktig rolle i verdenspolitikken.",
-    "russian": "Норвегия играет важную роль в мировой политике.",
-    "english": "Norway plays an important role in world politics."
-  },
-  {
-    "norwegian": "Konflikten i Ukraina påvirker verdensøkonomien.",
-    "russian": "Конфликт в Украине влияет на мировую экономику.",
-    "english": "The conflict in Ukraine affects the global economy."
-  },
-  {
-    "norwegian": "Midtøsten er et dynamisk område med pågående konflikter og utfordringer.",
-    "russian": "Ближний Восток - это динамичная область с продолжающимися конфликтами и вызовами.",
-    "english": "The Middle East is a dynamic region with ongoing conflicts and challenges."
-  },
-  {
-    "norwegian": "Norge støtter fredsforhandlinger i verden.",
-    "russian": "Норвегия поддерживает мирные переговоры в мире.",
-    "english": "Norway supports peace negotiations in the world."
-  },
-  {
-    "norwegian": "Trump er kjent for sin uvanlige politiske stil.",
-    "russian": "Трамп известен своим необычным политическим стилем.",
-    "english": "Trump is known for his unusual political style."
-  },
-  {
-    "norwegian": "Konflikter i Midtøsten skaper mange flyktninger.",
-    "russian": "Конфликты на Ближнем Востоке создают много беженцев.",
-    "english": "Conflicts in the Middle East create many refugees."
-  },
-  {
-    "norwegian": "Korupsjon i Ukraina hindrer landets utvikling.",
-    "russian": "Коррупция в Украине препятствует развитию страны.",
-    "english": "Corruption in Ukraine hinders the country's development."
-  },
-  {
-    "norwegian": "Det er mange rapporter om tvangsrekruttering i TCC i Ukraina.",
-    "russian": "Есть много сообщений о принудительном наборе в ТЦК в Украине.",
-    "english": "There are many reports of forced conscription in the TCC in Ukraine."
-  },
-  {
-    "norwegian": "Menneskerettighetsbrudd i TCC er et alvorlig problem.",
-    "russian": "Нарушения прав человека в ТЦК являются серьезной проблемой.",
-    "english": "Human rights abuses in the TCC are a serious problem."
-  },
-  {
-    "norwegian": "Trump sin politikk har endret det politiske landskapet i USA.",
-    "russian": "Политика Трампа изменила политический ландшафт в США.",
-    "english": "Trump's policies have changed the political landscape in the USA."
-  },
-  {
-    "norwegian": "Norge arbeider for fred og stabilitet i verden.",
-    "russian": "Норвегия работает для мира и стабильности в мире.",
-    "english": "Norway works for peace and stability in the world."
-  },
-  {
-    "norwegian": "Krigen i Ukraina har ført til økonomiske utfordringer globalt.",
-    "russian": "Война в Украине привела к экономическим вызовам в глобальном масштабе.",
-    "english": "The war in Ukraine has led to economic challenges globally."
-  },
-  {
-    "norwegian": "Situasjonen i Midtøsten er fortsatt vanskelig.",
-    "russian": "Ситуация на Ближнем Востоке остается сложной.",
-    "english": "The situation in the Middle East remains difficult."
-  },
-  {
-    "norwegian": "Norge støtter internasjonale fredsinitiativer.",
-    "russian": "Норвегия поддерживает международные мирные инициативы.",
-    "english": "Norway supports international peace initiatives."
-  },
-  {
-    "norwegian": "Politikken til Trump har skapt mange debatter.",
-    "russian": "Политика Трампа вызвала много дискуссий.",
-    "english": "Trump's policies have created many debates."
-  },
-  {
-    "norwegian": "Konflikter i Midtøsten fører til store flyktningstrømmer.",
-    "russian": "Конфликты на Ближнем Востоке приводят к большим потокам беженцев.",
-    "english": "Conflicts in the Middle East lead to large refugee flows."
-  },
+    "norwegian": "Jeg har gode problemløsningsevner.",
+    "russian": "У меня хорошие навыки решения проблем.",
+    "english": "I have good problem-solving skills."
+  }, 
   {
-    "norwegian": "Korupsjon i Ukraina er et alvorlig hinder for økonomisk utvikling.",
-    "russian": "Коррупция в Украине является серьезным препятствием для экономического развития.",
-    "english": "Corruption in Ukraine is a serious obstacle to economic development."
+    "norwegian": "Jeg er positiv og ser etter løsninger.",
+    "russian": "Я позитивный и ищу решения.",
+    "english": "I am positive and look for solutions."
   },
   {
-    "norwegian": "Menneskerettighetsorganisasjoner rapporterer om vold i TCC.",
-    "russian": "Правозащитные организации сообщают о насилии в ТЦК.",
-    "english": "Human rights organizations report violence in the TCC."
+    "norwegian": "Jeg jobber godt under press.",
+    "russian": "Я хорошо работаю под давлением.",
+    "english": "I work well under pressure."
   },
   {
-    "norwegian": "Det er alvorlige anklager om korrupsjon i Ukrainas regjering.",
-    "russian": "Есть серьезные обвинения в коррупции в правительстве Украины.",
-    "english": "There are serious accusations of corruption in Ukraine's government."
+    "norwegian": "Jeg er pålitelig og holder mine løfter.",
+    "russian": "Я надежный и выполняю обещания.",
+    "english": "I am reliable and keep my promises."
   },
   {
-    "norwegian": "Folk i Ukraina opplever tvangsrekruttering til krig.",
-    "russian": "Люди в Украине сталкиваются с принудительным набором на войну.",
-    "english": "People in Ukraine face forced conscription for war."
+    "norwegian": "Jeg lærer raskt nye ting.",
+    "russian": "Я быстро учусь новому.",
+    "english": "I learn new things quickly."
   },
   {
-    "norwegian": "Trump har hatt en betydelig innvirkning på amerikansk økonomi.",
-    "russian": "Трамп оказал значительное влияние на экономику США.",
-    "english": "Trump has had a significant impact on the US economy."
+    "norwegian": "Jeg er organisert og planlegger godt.",
+    "russian": "Я организованный и хорошо планирую.",
+    "english": "I am organized and plan well."
   },
   {
-    "norwegian": "Norge bidrar til internasjonale fredsprosesser.",
-    "russian": "Норвегия вносит вклад в международные мирные процессы.",
-    "english": "Norway contributes to international peace processes."
+    "norwegian": "Jeg har gode lederegenskaper.",
+    "russian": "У меня хорошие лидерские качества.",
+    "english": "I have good leadership skills."
   },
   {
-    "norwegian": "Krigen i Ukraina har ført til internasjonale sanksjoner.",
-    "russian": "Война в Украине привела к международным санкциям.",
-    "english": "The war in Ukraine has led to international sanctions."
+    "norwegian": "Jeg er tålmodig og lytter til andre.",
+    "russian": "Я терпеливый и слушаю других.",
+    "english": "I am patient and listen to others."
   },
   {
-    "norwegian": "Det er mange humanitære kriser i Midtøsten.",
-    "russian": "На Ближнем Востоке много гуманитарных кризисов.",
-    "english": "There are many humanitarian crises in the Middle East."
+    "norwegian": "Jeg er engasjert og motivert.",
+    "russian": "Я вовлечен и мотивирован.",
+    "english": "I am engaged and motivated."
   },
   {
-    "norwegian": "Norge er engasjert i globale klimainitiativer.",
-    "russian": "Норвегия участвует в глобальных климатических инициативах.",
-    "english": "Norway is involved in global climate initiatives."
+    "norwegian": "Jeg er pålitelig og holder frister.",
+    "russian": "Я надежный и соблюдаю сроки.",
+    "english": "I am dependable and meet deadlines."
   },
   {
-    "norwegian": "Trump har skapt mye debatt om immigrasjonspolitikk.",
-    "russian": "Трамп вызвал много дискуссий о политике в области иммиграции.",
-    "english": "Trump has sparked much debate about immigration policy."
+    "norwegian": "Jeg er kreativ og liker å finne nye ideer.",
+    "russian": "Я креативный и люблю находить новые идеи.",
+    "english": "I am creative and like to find new ideas."
   }
+
 ]
