@@ -94,11 +94,7 @@ const sentences = [
     "russian": "Конфликт в Украине влияет на мировую экономику.",
     "english": "The conflict in Ukraine affects the global economy."
   },
-  {
-    "norwegian": "Norge jobber for å oppnå klimamålene internasjonalt.",
-    "russian": "Норвегия работает над достижением климатических целей на международном уровне.",
-    "english": "Norway is working to achieve climate goals internationally."
-  },
+
   {
     "norwegian": "Norge jobber for fred i verden.",
     "russian": "Норвегия работает для мира в мире.",
@@ -139,11 +135,7 @@ const sentences = [
     "russian": "Трамп является спорной фигурой в политике.",
     "english": "Trump is a controversial figure in politics."
   },
-  {
-    "norwegian": "Norge støtter klimainitiativer internasjonalt.",
-    "russian": "Норвегия поддерживает климатические инициативы на международном уровне.",
-    "english": "Norway supports climate initiatives internationally."
-  },
+
   {
     "norwegian": "Konflikten i Ukraina skaper store problemer.",
     "russian": "Конфликт в Украине вызывает большие проблемы.",
@@ -160,59 +152,14 @@ const sentences = [
     "english": "BlackRock invests in technology and energy."
   },
   {
-    "norwegian": "BlackRock hjelper med risikostyring for mange land.",
-    "russian": "BlackRock помогает с управлением рисками для многих стран.",
-    "english": "BlackRock helps with risk management for many countries."
-  },
-  {
-    "norwegian": "BlackRock jobber for å forbedre infrastruktur i verden.",
-    "russian": "BlackRock работает над улучшением инфраструктуры в мире.",
-    "english": "BlackRock works to improve infrastructure globally."
-  },
-  {
     "norwegian": "BlackRock har en stor rolle i global finans.",
     "russian": "BlackRock играет большую роль в глобальных финансах.",
     "english": "BlackRock plays a big role in global finance."
   },
   {
-    "norwegian": "BlackRock påvirker investeringsstrategier internasjonalt.",
-    "russian": "BlackRock влияет на международные инвестиционные стратегии.",
-    "english": "BlackRock influences international investment strategies."
-  },
-  {
-    "norwegian": "BlackRock jobber med å sikre økonomisk stabilitet.",
-    "russian": "BlackRock работает над обеспечением экономической стабильности.",
-    "english": "BlackRock works to ensure economic stability."
-  },
-  {
     "norwegian": "BlackRock har stor innflytelse på markedet.",
     "russian": "BlackRock оказывает значительное влияние на рынок.",
     "english": "BlackRock has a significant influence on the market."
-  },
-  {
-    "norwegian": "BlackRock investerer i bærekraftig utvikling.",
-    "russian": "BlackRock инвестирует в устойчивое развитие.",
-    "english": "BlackRock invests in sustainable development."
-  },
-  {
-    "norwegian": "BlackRock jobber for å forbedre global økonomi.",
-    "russian": "BlackRock работает над улучшением глобальной экономики.",
-    "english": "BlackRock works to improve the global economy."
-  },
-  {
-    "norwegian": "BlackRock påvirker global økonomi betydelig.",
-    "russian": "BlackRock значительно влияет на мировую экономику.",
-    "english": "BlackRock significantly influences the global economy."
-  },
-  {
-    "norwegian": "BlackRock investerer i mange sektorer over hele verden.",
-    "russian": "BlackRock инвестирует в различные секторы по всему миру.",
-    "english": "BlackRock invests in many sectors around the world."
-  },
-  {
-    "norwegian": "BlackRock bidrar til økonomisk vekst gjennom investeringer.",
-    "russian": "BlackRock способствует экономическому росту через инвестиции.",
-    "english": "BlackRock contributes to economic growth through investments."
   },
   {
     "norwegian": "Norge støtter FN i mange internasjonale spørsmål.",
@@ -230,16 +177,6 @@ const sentences = [
     "english": "The conflict in Gaza affects security and stability in the region."
   },
   {
-    "norwegian": "Norge arbeider for bærekraftig utvikling globalt.",
-    "russian": "Норвегия работает над устойчивым развитием в глобальном масштабе.",
-    "english": "Norway works for sustainable development globally."
-  },
-  {
-    "norwegian": "BlackRock støtter bærekraftige investeringer.",
-    "russian": "BlackRock поддерживает устойчивые инвестиции.",
-    "english": "BlackRock supports sustainable investments."
-  },
-  {
     "norwegian": "Trump's politikk har påvirket globale markeder.",
     "russian": "Политика Трампа повлияла на мировые рынки.",
     "english": "Trump's policies have affected global markets."
@@ -248,16 +185,6 @@ const sentences = [
     "norwegian": "Norge spiller en sentral rolle i klimaforhandlinger.",
     "russian": "Норвегия играет центральную роль в климатических переговорах.",
     "english": "Norway plays a central role in climate negotiations."
-  },
-  {
-    "norwegian": "BlackRock investerer i både utviklede og fremvoksende markeder.",
-    "russian": "BlackRock инвестирует в как развитые, так и развивающиеся рынки.",
-    "english": "BlackRock invests in both developed and emerging markets."
-  },
-  {
-    "norwegian": "BlackRock har påvirket investeringer i fornybar energi.",
-    "russian": "BlackRock повлиял на инвестиции в возобновляемую энергию.",
-    "english": "BlackRock has impacted investments in renewable energy."
   },
   {
     "norwegian": "Norge samarbeider med andre land om klimaendringer.",
@@ -275,11 +202,6 @@ const sentences = [
     "english": "Norway works for international development and aid."
   },
   {
-    "norwegian": "BlackRock bidrar til stabilitet i økonomiske systemer.",
-    "russian": "BlackRock способствует стабильности экономических систем.",
-    "english": "BlackRock contributes to stability in economic systems."
-  },
-  {
     "norwegian": "Trump har skapt debatt om innvandringspolitikk.",
     "russian": "Трамп вызвал дебаты о политике иммиграции.",
     "english": "Trump has sparked debate on immigration policy."
@@ -293,11 +215,6 @@ const sentences = [
     "norwegian": "Norge har en sterk posisjon i verdenspolitikken.",
     "russian": "Норвегия занимает сильную позицию в мировой политике.",
     "english": "Norway has a strong position in world politics."
-  },
-  {
-    "norwegian": "BlackRock påvirker selskapers ESG-strategier.",
-    "russian": "BlackRock влияет на ESG-стратегии компаний.",
-    "english": "BlackRock influences companies' ESG strategies."
   },
   {
     "norwegian": "Korupsjon i Ukraina er et stort problem for økonomisk utvikling.",
@@ -328,11 +245,6 @@ const sentences = [
     "norwegian": "Konflikten i Ukraina påvirker verdensøkonomien.",
     "russian": "Конфликт в Украине влияет на мировую экономику.",
     "english": "The conflict in Ukraine affects the global economy."
-  },
-  {
-    "norwegian": "Midtøsten er et dynamisk område med pågående konflikter og utfordringer.",
-    "russian": "Ближний Восток - это динамичная область с продолжающимися конфликтами и вызовами.",
-    "english": "The Middle East is a dynamic region with ongoing conflicts and challenges."
   },
   {
     "norwegian": "Norge støtter fredsforhandlinger i verden.",
