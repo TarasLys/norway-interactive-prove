@@ -30,7 +30,7 @@ const sentences = [
     "english": "I like to read books, so I often go to the library."
   },
   {
-    "norwegian": "Vi måtte vente lenge, fordi bussen var forsinket.",
+    "norwegian": "Vi måtte vente lenge fordi bussen var forsinket.",
     "russian": "Нам пришлось долго ждать, потому что автобус опоздал.",
     "english": "We had to wait a long time because the bus was delayed."
   },
@@ -80,7 +80,7 @@ const sentences = [
     "english": "It was cold outside, so we decided to stay home."
   },
   {
-    "norwegian": "Jeg leste en interessant bok, fordi jeg elsker å lære nye ting.",
+    "norwegian": "Jeg leste en interessant bok fordi jeg elsker å lære nye ting.",
     "russian": "Я прочитал интересную книгу, потому что люблю узнавать новое.",
     "english": "I read an interesting book because I love to learn new things."
   },
