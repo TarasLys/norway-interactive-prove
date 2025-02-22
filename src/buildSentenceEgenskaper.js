@@ -26,9 +26,9 @@ const sentences = [
     "english": "No problem! Good luck!"
   },
   {
-    "norwegian": "Hei, jeg heter [Navn]. Hyggelig å møte deg.",
-    "russian": "Привет, меня зовут [Имя]. Приятно познакомиться.",
-    "english": "Hi, my name is [Name]. Nice to meet you."
+    "norwegian": "Hei, jeg heter Taras. Hyggelig å møte deg.",
+    "russian": "Привет, меня зовут Тарас. Приятно познакомиться.",
+    "english": "Hi, my name is Taras. Nice to meet you."
   },
   {
     "norwegian": "Hyggelig å møte deg også. Jeg har noen spørsmål om jobben.",
@@ -91,11 +91,6 @@ const sentences = [
     "english": "Can you tell me about your experience with artificial intelligence?"
   },
   {
-    "norwegian": "Ja, jeg har arbeidet med flere prosjekter som involverer maskinlæring og dataanalyse.",
-    "russian": "Да, я работал над несколькими проектами, которые включают машинное обучение и анализ данных.",
-    "english": "Yes, I have worked on several projects involving machine learning and data analysis."
-  },
-  {
     "norwegian": "Det er flott å høre. Hvordan tror du din erfaring kan hjelpe oss her?",
     "russian": "Прекрасно. Как вы думаете, как ваш опыт может помочь нам здесь?",
     "english": "That's great to hear. How do you think your experience can help us here?"
@@ -126,11 +121,6 @@ const sentences = [
     "english": "How does your team collaborate on these projects?"
   },
   {
-    "norwegian": "Vi har regelmessige møter og bruker samarbeidsverktøy for å holde alle informert.",
-    "russian": "У нас регулярные встречи, и мы используем инструменты для сотрудничества, чтобы все были в курсе.",
-    "english": "We have regular meetings and use collaboration tools to keep everyone informed."
-  },
-  {
     "norwegian": "Hva forventer du fra en ny ansatt i denne stillingen?",
     "russian": "Чего вы ожидаете от нового сотрудника на этой должности?",
     "english": "What do you expect from a new employee in this position?"
@@ -145,11 +135,6 @@ const sentences = [
     "russian": "Как вы измеряете успех в ваших проектах?",
     "english": "How do you measure success in your projects?"
   },
-  {
-    "norwegian": "Vi bruker ulike KPIer og regelmessige vurderinger for å måle fremgang.",
-    "russian": "Мы используем различные ключевые показатели эффективности и регулярные оценки для измерения прогресса.",
-    "english": "We use various KPIs and regular evaluations to measure progress."
-    },
   {
     "norwegian": "Hva er de viktigste ferdighetene for denne stillingen?",
     "russian": "Какие основные навыки важны для этой должности?",
@@ -171,16 +156,6 @@ const sentences = [
     "english": "You will work independently on various AI projects and report to the team leader."
   },
   {
-    "norwegian": "Er det muligheter for å utvikle seg og lære nye ferdigheter?",
-    "russian": "Есть ли возможности для развития и изучения новых навыков?",
-    "english": "Are there opportunities to develop and learn new skills?"
-  },
-  {
-    "norwegian": "Absolutt, vi tilbyr kontinuerlig opplæring og ressurser for din faglige vekst.",
-    "russian": "Безусловно, мы предлагаем постоянное обучение и ресурсы для вашего профессионального роста.",
-    "english": "Absolutely, we provide ongoing training and resources for your professional growth."
-  },
-  {
     "norwegian": "Hvordan vil suksess bli målt i denne rollen?",
     "russian": "Как будет измеряться успех в этой роли?",
     "english": "How will success be measured in this role?"
@@ -194,11 +169,6 @@ const sentences = [
     "norwegian": "Kan du beskrive en utfordring du nylig løste?",
     "russian": "Можете описать проблему, которую вы недавно решили?",
     "english": "Can you describe a challenge you recently solved?"
-  },
-  {
-    "norwegian": "Jeg utviklet en AI-løsning for å forbedre effektiviteten i et dataanalytisk system.",
-    "russian": "Я разработал решение на основе ИИ для повышения эффективности аналитической системы.",
-    "english": "I developed an AI solution to improve efficiency in a data analysis system."
   }
 
 ];
