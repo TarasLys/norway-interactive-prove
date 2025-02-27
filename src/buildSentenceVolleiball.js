@@ -5,7 +5,7 @@ const sentences = [
     "english": "I am learning Norwegian because I want to live and work in Norway."
   },
   {
-    "norwegian": "Jeg har gjort leksene mine, derfor kan jeg nå se på TV.",
+    "norwegian": "Jeg har gjort leksene mine. Derfor kan jeg nå se på TV.",
     "russian": "Я сделал свои домашние задания, поэтому теперь могу смотреть телевизор.",
     "english": "I have done my homework, therefore I can now watch TV."
   },
@@ -15,7 +15,7 @@ const sentences = [
     "english": "It's raining, so I will bring an umbrella."
   },
   {
-    "norwegian": "Han var syk, derfor kom han ikke på jobb.",
+    "norwegian": "Han var syk. Derfor kom han ikke på jobb.",
     "russian": "Он был болен, поэтому не пришел на работу.",
     "english": "He was sick, therefore he didn't come to work."
   },
@@ -35,7 +35,7 @@ const sentences = [
     "english": "We had to wait a long time because the bus was delayed."
   },
   {
-    "norwegian": "Hun har jobbet hardt, derfor fortjener hun en pause.",
+    "norwegian": "Hun har jobbet hardt. Derfor fortjener hun en pause.",
     "russian": "Она много работала, поэтому заслуживает перерыв.",
     "english": "She has worked hard, therefore she deserves a break."
   },
@@ -55,7 +55,7 @@ const sentences = [
     "english": "I ordered a pizza because I didn't have time to cook."
   },
   {
-    "norwegian": "Han lærte å kjøre bil, derfor kan han nå reise hvor som helst.",
+    "norwegian": "Han lærte å kjøre bil. Derfor kan han nå reise hvor som helst.",
     "russian": "Он научился водить машину, поэтому теперь может ехать куда угодно.",
     "english": "He learned to drive, therefore he can now travel anywhere."
   },
@@ -70,7 +70,7 @@ const sentences = [
     "english": "They moved to a bigger city because they wanted more opportunities."
   },
   {
-    "norwegian": "Hun jobber hardt, derfor får hun alltid gode resultater.",
+    "norwegian": "Hun jobber hardt. Derfor får hun alltid gode resultater.",
     "russian": "Она усердно работает, поэтому всегда получает хорошие результаты.",
     "english": "She works hard, therefore she always gets good results."
   },
@@ -85,7 +85,7 @@ const sentences = [
     "english": "I read an interesting book because I love to learn new things."
   },
   {
-    "norwegian": "Han trener hver dag, derfor er han i god form.",
+    "norwegian": "Han trener hver dag. Derfor er han i god form.",
     "russian": "Он тренируется каждый день, поэтому находится в хорошей форме.",
     "english": "He exercises every day, therefore he is in good shape."
   },
@@ -105,7 +105,7 @@ const sentences = [
     "english": "I made dinner because my family came to visit."
   },
   {
-    "norwegian": "Hun besøkte Oslo, derfor lærte hun mye om norsk kultur.",
+    "norwegian": "Hun besøkte Oslo. Derfor lærte hun mye om norsk kultur.",
     "russian": "Она посетила Осло, поэтому узнала много о норвежской культуре.",
     "english": "She visited Oslo, therefore she learned a lot about Norwegian culture."
   },
@@ -120,7 +120,7 @@ const sentences = [
     "english": "He studied hard because he wanted to pass the exam."
   },
   {
-    "norwegian": "Jeg kjøpte en ny sykkel, derfor kan jeg sykle til jobben nå.",
+    "norwegian": "Jeg kjøpte en ny sykkel. Derfor kan jeg sykle til jobben nå.",
     "russian": "Я купил новый велосипед, поэтому теперь могу ездить на работу на велосипеде.",
     "english": "I bought a new bike, therefore I can cycle to work now."
   },
@@ -140,7 +140,7 @@ const sentences = [
     "english": "I received a job offer because I have relevant experience."
   },
   {
-    "norwegian": "De flyttet til landet, derfor har de nå en stor hage.",
+    "norwegian": "De flyttet til landet. Derfor har de nå en stor hage.",
     "russian": "Они переехали за город, поэтому теперь у них большой сад.",
     "english": "They moved to the countryside, therefore they now have a large garden."
   },
@@ -155,7 +155,7 @@ const sentences = [
     "english": "I went to the doctor because I felt sick."
   },
   {
-    "norwegian": "Hun solgte huset sitt, derfor bor hun nå i en leilighet.",
+    "norwegian": "Hun solgte huset sitt. Derfor bor hun nå i en leilighet.",
     "russian": "Она продала свой дом, поэтому теперь живет в квартире.",
     "english": "She sold her house, therefore she now lives in an apartment."
   },
@@ -170,7 +170,7 @@ const sentences = [
     "english": "He bought new clothes because he needed them for work."
   },
   {
-    "norwegian": "Jeg har spart penger, derfor kan jeg reise til utlandet i sommer.",
+    "norwegian": "Jeg har spart penger. Derfor kan jeg reise til utlandet i sommer.",
     "russian": "Я накопил деньги, поэтому этим летом могу поехать за границу.",
     "english": "I have saved money, therefore I can travel abroad this summer."
   },
@@ -190,7 +190,7 @@ const sentences = [
     "english": "She started at a new school because she moved to another city."
   },
   {
-    "norwegian": "Jeg jobber overtid, derfor kan jeg tjene ekstra penger.",
+    "norwegian": "Jeg jobber overtid. Derfor kan jeg tjene ekstra penger.",
     "russian": "Я работаю сверхурочно, поэтому могу заработать дополнительные деньги.",
     "english": "I work overtime, therefore I can earn extra money."
   },
@@ -205,7 +205,7 @@ const sentences = [
     "english": "I received an award because I did a good job."
   },
   {
-    "norwegian": "Hun skrev en bok, derfor er hun nå en kjent forfatter.",
+    "norwegian": "Hun skrev en bok. Derfor er hun nå en kjent forfatter.",
     "russian": "Она написала книгу, поэтому теперь она известная писательница.",
     "english": "She wrote a book, therefore she is now a famous author."
   },
@@ -220,7 +220,7 @@ const sentences = [
     "english": "He attends many meetings because he is the project leader."
   },
   {
-    "norwegian": "Jeg har spart penger, derfor kan jeg kjøpe en ny bil.",
+    "norwegian": "Jeg har spart penger. Derfor kan jeg kjøpe en ny bil.",
     "russian": "Я накопил деньги, поэтому могу купить новую машину.",
     "english": "I have saved money, therefore I can buy a new car."
   },
@@ -240,7 +240,7 @@ const sentences = [
     "english": "I am taking a Norwegian course because I want to improve my language skills."
   },
   {
-    "norwegian": "De kjøpte en hytte, derfor tilbringer de nå helgene på landet.",
+    "norwegian": "De kjøpte en hytte. Derfor tilbringer de nå helgene på landet.",
     "russian": "Они купили коттедж, поэтому теперь проводят выходные за городом.",
     "english": "They bought a cabin, therefore they now spend weekends in the countryside."
   },
@@ -255,7 +255,7 @@ const sentences = [
     "english": "I started my own business because I wanted to be my own boss."
   },
   {
-    "norwegian": "Hun besøkte legen, derfor følte hun seg mye bedre.",
+    "norwegian": "Hun besøkte legen. Derfor følte hun seg mye bedre.",
     "russian": "Она сходила к врачу, поэтому чувствует себя намного лучше.",
     "english": "She visited the doctor, therefore she feels much better."
   },
@@ -270,7 +270,7 @@ const sentences = [
     "english": "He learned to play the guitar because he loves music."
   },
   {
-    "norwegian": "Jeg har jobbet hardt, derfor kan jeg nå ta en ferie.",
+    "norwegian": "Jeg har jobbet hardt. Derfor kan jeg nå ta en ferie.",
     "russian": "Я много работал, поэтому теперь могу взять отпуск.",
     "english": "I have worked hard, therefore I can now take a vacation."
   },
@@ -290,7 +290,7 @@ const sentences = [
     "english": "I took a cooking class because I love to cook."
   },
   {
-    "norwegian": "De flyttet til et nytt hus, derfor måtte de pakke alle tingene sine.",
+    "norwegian": "De flyttet til et nytt hus. Derfor måtte de pakke alle tingene sine.",
     "russian": "Они переехали в новый дом, поэтому им пришлось упаковывать все свои вещи.",
     "english": "They moved to a new house, therefore they had to pack all their things."
   },
@@ -305,7 +305,7 @@ const sentences = [
     "english": "I found a new hobby because I wanted to try something new."
   },
   {
-    "norwegian": "Hun deltok i en konferanse, derfor har hun mange nye kontakter.",
+    "norwegian": "Hun deltok i en konferanse. Derfor har hun mange nye kontakter.",
     "russian": "Она участвовала в конференции, поэтому у нее много новых контактов.",
     "english": "She attended a conference, therefore she has many new contacts."
   },
@@ -320,7 +320,7 @@ const sentences = [
     "english": "He started training at the gym because he wanted to improve his health."
   },
   {
-    "norwegian": "Jeg har reist mye, derfor har jeg sett mange ulike kulturer.",
+    "norwegian": "Jeg har reist mye. Derfor har jeg sett mange ulike kulturer.",
     "russian": "Я много путешествовал, поэтому видел много разных культур.",
     "english": "I have traveled a lot, therefore I have seen many different cultures."
   },
@@ -340,7 +340,7 @@ const sentences = [
     "english": "I took a break because I was very tired."
   },
   {
-    "norwegian": "De deltok på språkkurset, derfor kunne de snakke bedre norsk.",
+    "norwegian": "De deltok på språkkurset. Derfor kunne de snakke bedre norsk.",
     "russian": "Они посещали языковые курсы, поэтому могли лучше говорить по-норвежски.",
     "english": "They attended the language course, therefore they could speak better Norwegian."
   },
@@ -355,7 +355,7 @@ const sentences = [
     "english": "I made new friends because I joined a club."
   },
   {
-    "norwegian": "Hun kjøpte et kamera, derfor kan hun ta bilder av naturen.",
+    "norwegian": "Hun kjøpte et kamera. Derfor kan hun ta bilder av naturen.",
     "russian": "Она купила камеру, поэтому теперь может фотографировать природу.",
     "english": "She bought a camera, therefore she can take pictures of nature."
   },
@@ -370,7 +370,7 @@ const sentences = [
     "english": "He moved to a new city because he got a new job."
   },
   {
-    "norwegian": "Jeg har lest mange bøker, derfor vet jeg mye om historie.",
+    "norwegian": "Jeg har lest mange bøker. Derfor vet jeg mye om historie.",
     "russian": "Я прочитал много книг, поэтому много знаю о истории.",
     "english": "I have read many books, therefore I know a lot about history."
   },
@@ -390,7 +390,7 @@ const sentences = [
     "english": "I took a computer course because I wanted to improve my skills."
   },
   {
-    "norwegian": "De kjøpte en hund, derfor går de på tur hver dag.",
+    "norwegian": "De kjøpte en hund. Derfor går de på tur hver dag.",
     "russian": "Они купили собаку, поэтому теперь гуляют каждый день.",
     "english": "They bought a dog, therefore they walk every day."
   },
@@ -405,7 +405,7 @@ const sentences = [
     "english": "I started learning Norwegian because I wanted to understand the culture better."
   },
   {
-    "norwegian": "Hun besøkte sin venn, derfor gikk hun tidlig fra jobben.",
+    "norwegian": "Hun besøkte sin venn. Derfor gikk hun tidlig fra jobben.",
     "russian": "Она навестила свою подругу, поэтому ушла с работы пораньше.",
     "english": "She visited her friend, therefore she left work early."
   },
@@ -420,7 +420,7 @@ const sentences = [
     "english": "He bought a new bike because the old one was broken."
   },
   {
-    "norwegian": "Jeg har tatt mange bilder, derfor har jeg en stor samling.",
+    "norwegian": "Jeg har tatt mange bilder. Derfor har jeg en stor samling.",
     "russian": "Я сделал много фотографий, поэтому у меня большая коллекция.",
     "english": "I have taken many photos, therefore I have a large collection."
   },
@@ -440,7 +440,7 @@ const sentences = [
     "english": "I take care of the environment because it is important for the future."
   },
   {
-    "norwegian": "De arrangerte en veldedighetskonsert, derfor samlet de inn mye penger.",
+    "norwegian": "De arrangerte en veldedighetskonsert. Derfor samlet de inn mye penger.",
     "russian": "Они организовали благотворительный концерт, поэтому собрали много денег.",
     "english": "They organized a charity concert, therefore they raised a lot of money."
   },
@@ -455,7 +455,7 @@ const sentences = [
     "english": "I joined a sports club because I wanted to stay active."
   },
   {
-    "norwegian": "Hun kjøpte en ny mobiltelefon, derfor kan hun ta bedre bilder.",
+    "norwegian": "Hun kjøpte en ny mobiltelefon. Derfor kan hun ta bedre bilder.",
     "russian": "Она купила новый мобильный телефон, поэтому теперь может делать лучшие фотографии.",
     "english": "She bought a new mobile phone, therefore she can take better photos."
   },
@@ -470,7 +470,7 @@ const sentences = [
     "english": "He learned to cook because he wanted to impress his friends."
   },
   {
-    "norwegian": "Jeg har trent regelmessig, derfor er jeg i bedre form nå.",
+    "norwegian": "Jeg har trent regelmessig. Derfor er jeg i bedre form nå.",
     "russian": "Я регулярно тренировался, поэтому теперь я в лучшей форме.",
     "english": "I have been exercising regularly, therefore I am in better shape now."
   },
@@ -490,7 +490,7 @@ const sentences = [
     "english": "I went on vacation to Spain because I love the sun and the beach."
   },
   {
-    "norwegian": "De flyttet til Norge, derfor lærer de nå norsk.",
+    "norwegian": "De flyttet til Norge. Derfor lærer de nå norsk.",
     "russian": "Они переехали в Норвегию, поэтому теперь учат норвежский.",
     "english": "They moved to Norway, therefore they are now learning Norwegian."
   },
@@ -505,7 +505,7 @@ const sentences = [
     "english": "I started doing yoga because I wanted to reduce stress."
   },
   {
-    "norwegian": "Hun kjøpte en ny bok, derfor har hun mye å lese nå.",
+    "norwegian": "Hun kjøpte en ny bok. Derfor har hun mye å lese nå.",
     "russian": "Она купила новую книгу, поэтому теперь у нее много чего читать.",
     "english": "She bought a new book, therefore she has a lot to read now."
   },
@@ -520,7 +520,7 @@ const sentences = [
     "english": "He took a programming course because he wanted to change his career."
   },
   {
-    "norwegian": "Jeg har spart penger, derfor kan jeg nå kjøpe en ny datamaskin.",
+    "norwegian": "Jeg har spart penger. Derfor kan jeg nå kjøpe en ny datamaskin.",
     "russian": "Я накопил деньги, поэтому теперь могу купить новый компьютер.",
     "english": "I have saved money, therefore I can now buy a new computer."
   },
@@ -540,7 +540,7 @@ const sentences = [
     "english": "I went on a bike ride because I wanted to stay in shape."
   },
   {
-    "norwegian": "De kjøpte en stor seng, derfor kan de sove mer komfortabelt.",
+    "norwegian": "De kjøpte en stor seng. Derfor kan de sove mer komfortabelt.",
     "russian": "Они купили большую кровать, поэтому могут спать более комфортно.",
     "english": "They bought a big bed, therefore they can sleep more comfortably."
   },
