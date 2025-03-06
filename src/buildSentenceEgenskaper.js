@@ -1,68 +1,68 @@
 const sentences = [
    {
-     "norwegian": "Kan jeg få jobb hos deg etter praksis?",
-     "russian": "Могу я после практики на вашем предприятии получить работу?",
-     "english": "Can I get a job at your company after my internship?"
+     "norwegian": "Hva må jeg gjøre for å få jobb etter praksis?",
+     "russian": "Что мне нужно сделать, чтобы получить работу после практики?",
+     "english": "What do I need to do to get a job after my internship?"
    },
    {
-     "norwegian": "Hvor mange prosent kan jeg få en jobb hos deg?",
-     "russian": "На сколько процентов занятости я могу получить работу у вас?",
-     "english": "What percentage of employment can I get at your company?"
+     "norwegian": "Kan du fortelle meg hvor mange prosenter jeg kan jobbe hos deg?",
+     "russian": "Можете сказать, на сколько процентов занятости я могу рассчитывать у вас?",
+     "english": "Can you tell me what percentage of employment I can expect at your company?"
    },
    {
-     "norwegian": "Jeg kan markedsføre merkevaren med reklame.",
-     "russian": "Я могу продвигать торговую марку с помощью рекламы.",
-     "english": "I can promote the brand through advertising."
+     "norwegian": "Jeg har gode ferdigheter til å markedsføre produkter og tjenester.",
+     "russian": "У меня хорошие навыки для продвижения продуктов и услуг.",
+     "english": "I have good skills for promoting products and services."
    },
    {
-     "norwegian": "Det tar mer enn to måneder å lage en YouTube-kanal og bestille reklame.",
-     "russian": "Для создания ютуб канала и заказа рекламы нужно больше времени чем 2 месяца.",
-     "english": "It takes more than two months to create a YouTube channel and order advertising."
+     "norwegian": "For å lage en YouTube-kanal og planlegge annonser trenger vi mer tid enn to måneder.",
+     "russian": "Для создания YouTube-канала и планирования рекламы нужно больше двух месяцев.",
+     "english": "Creating a YouTube channel and planning ads requires more than two months."
    },
    {
-     "norwegian": "Vil du få nye kunder med videoer på YouTube og Facebook?",
-     "russian": "Вы хотите получить новых коинтов с помощью видео на ютуб и фейсбук?",
-     "english": "Do you want to gain new clients through YouTube and Facebook videos?"
+     "norwegian": "Vil dere bruke videoer på YouTube og Facebook for å tiltrekke flere kunder?",
+     "russian": "Вы хотите использовать видео на YouTube и Facebook, чтобы привлечь больше клиентов?",
+     "english": "Would you like to use YouTube and Facebook videos to attract more clients?"
    },
    {
-     "norwegian": "Har jeg en sjanse til å jobbe hos deg etter praksis?",
-     "russian": "Я имею шанс работать у вас после практики?",
-     "english": "Do I have a chance to work at your company after my internship?"
+     "norwegian": "Hvilke muligheter har jeg til å få jobb hos deg etter praksis?",
+     "russian": "Какие у меня есть возможности получить работу у вас после практики?",
+     "english": "What opportunities do I have to get a job at your company after my internship?"
    },
    {
-     "norwegian": "Jeg vet alt om YouTube og reklame, og jeg har veldig mye erfaring.",
-     "russian": "Я знаю все про ютуб и рекламу и у меня очень большой опыт.",
-     "english": "I know everything about YouTube and advertising, and I have a lot of experience."
+     "norwegian": "Jeg har mye erfaring med annonsering og vet hvordan det fungerer.",
+     "russian": "У меня большой опыт в рекламе, и я знаю, как это работает.",
+     "english": "I have a lot of experience in advertising and understand how it works."
    },
    {
-     "norwegian": "Har du mange prosjekter du jobber med nå?",
-     "russian": "У вас много проектов над которыми вы работаете сейчас?",
-     "english": "Do you have many projects you are working on now?"
+     "norwegian": "Er det mange prosjekter dere jobber med for øyeblikket?",
+     "russian": "Сейчас у вас много проектов, над которыми вы работаете?",
+     "english": "Are there many projects you are working on at the moment?"
    },
    {
-     "norwegian": "Kan jeg ha praksis på begge bedrifter to dager i uken og deretter velge?",
-     "russian": "Могу я иметь практику на обеих предприятиях по 2 дня в неделю а потом выбрать?",
-     "english": "Can I do an internship at both companies for two days a week and then choose?"
+     "norwegian": "Kan jeg prøve praksis på begge stedene i noen dager før jeg bestemmer meg?",
+     "russian": "Могу я попробовать пройти практику на обоих местах несколько дней, прежде чем принять решение?",
+     "english": "Can I try an internship at both places for a few days before deciding?"
    },
    {
-     "norwegian": "I Ukraina hadde jeg to egne lastebiler, og jeg vet mye om transport.",
-     "russian": "В украине у меня было два собственных трака и я знаю много о перевозках.",
-     "english": "In Ukraine, I had two of my own trucks, and I know a lot about logistics."
+     "norwegian": "I Ukraina eide jeg to lastebiler og drev med transport.",
+     "russian": "В Украине у меня было два грузовика, и я занимался перевозками.",
+     "english": "In Ukraine, I owned two trucks and was involved in logistics."
    },
    {
-     "norwegian": "Det var lenge siden, for 10 år siden, bilene ble kalt MAZ.",
-     "russian": "Это было давно 10 лет назад, автомобили назывались МАЗ.",
-     "english": "That was a long time ago, 10 years ago; the vehicles were called MAZ."
+     "norwegian": "De lastebilene ble kalt MAZ, og det var for ti år siden.",
+     "russian": "Эти грузовики назывались МАЗ, и это было десять лет назад.",
+     "english": "Those trucks were called MAZ, and that was ten years ago."
    },
    {
-     "norwegian": "Jeg vet også mye om lagerarbeid.",
-     "russian": "А также язнаю складскую работу хорошо.",
-     "english": "I also know a lot about warehouse work."
+     "norwegian": "Jeg har mye erfaring med lagerarbeid og kan bidra i dette området.",
+     "russian": "У меня большой опыт складской работы, и я могу быть полезен в этой сфере.",
+     "english": "I have a lot of experience in warehouse work and can contribute in this area."
    },
    {
-     "norwegian": "Kan dette valget gjøre ting verre?",
-     "russian": "Могу я этим выбором сделать хуже?",
-     "english": "Can this choice make things worse?"
+     "norwegian": "Tror du dette valget kan føre til problemer?",
+     "russian": "Думаете, этот выбор может привести к проблемам?",
+     "english": "Do you think this choice could cause problems?"
    }
   // {
   //   "norwegian": "Jeg kom til arbeidsplassen for et intervju om en jobb med datamaskiner og kunstig intelligens.",
