@@ -1,366 +1,265 @@
 const sentences = [
   {
-    "norwegian": "Krigen i Ukraina er vanskelig og påvirker mange mennesker.",
-    "russian": "Война в Украине трудная и затрагивает многих людей.",
-    "english": "The war in Ukraine is difficult and affects many people."
+    "norwegian": "Hvilke komponenter trenger vi for billettsiden?",
+    "russian": "Какие компоненты нам нужны для страницы с билетами?",
+    "english": "What components do we need for the ticket page?"
   },
   {
-    "norwegian": "Situasjonen i Midtøsten er fortsatt spent.",
-    "russian": "Ситуация на Ближнем Востоке остается напряженной.",
-    "english": "The situation in the Middle East remains tense."
+    "norwegian": "Vi må legge til en komponent for å vise tilgjengelige billetter.",
+    "russian": "Нам нужно добавить компонент для отображения доступных билетов.",
+    "english": "We need to add a component to show available tickets."
   },
   {
-    "norwegian": "Trump har gjort mange endringer i USA.",
-    "russian": "Трамп внес много изменений в США.",
-    "english": "Trump has made many changes in the USA."
+    "norwegian": "Hvordan skal vi validere billettskjemaet?",
+    "russian": "Как мы будем валидировать форму с билетами?",
+    "english": "How will we validate the ticket form?"
   },
   {
-    "norwegian": "Norge spiller en viktig rolle i verdenspolitikken.",
-    "russian": "Норвегия играет важную роль в мировой политике.",
-    "english": "Norway plays an important role in world politics."
+    "norwegian": "Vi kan bruke Formik og Yup for validering.",
+    "russian": "Мы можем использовать Formik и Yup для валидации.",
+    "english": "We can use Formik and Yup for validation."
   },
   {
-    "norwegian": "Krigen i Ukraina har store konsekvenser for Europa.",
-    "russian": "Война в Украине имеет большие последствия для Европы.",
-    "english": "The war in Ukraine has big consequences for Europe."
+    "norwegian": "Bør vi bruke server-side rendering for festivalsiden?",
+    "russian": "Нужно ли использовать серверный рендеринг для страницы фестиваля?",
+    "english": "Should we use server-side rendering for the festival page?"
   },
   {
-    "norwegian": "Forholdet mellom Israel og Palestina er komplekst.",
-    "russian": "Отношения между Израилем и Палестиной сложные.",
-    "english": "The relationship between Israel and Palestine is complex."
+    "norwegian": "Ja, Next.js er perfekt for server-side rendering.",
+    "russian": "Да, Next.js отлично подходит для серверного рендеринга.",
+    "english": "Yes, Next.js is perfect for server-side rendering."
   },
   {
-    "norwegian": "Trump er kjent for sin uvanlige politiske stil.",
-    "russian": "Трамп известен своим необычным политическим стилем.",
-    "english": "Trump is known for his unusual political style."
+    "norwegian": "Hvordan laster vi inn data om festivaler fra API?",
+    "russian": "Как загрузить данные о фестивалях из API?",
+    "english": "How do we load festival data from the API?"
   },
   {
-    "norwegian": "Norge støtter fredsforhandlinger i verden.",
-    "russian": "Норвегия поддерживает мирные переговоры в мире.",
-    "english": "Norway supports peace negotiations in the world."
+    "norwegian": "Vi kan bruke getServerSideProps for å hente data.",
+    "russian": "Мы можем использовать getServerSideProps для получения данных.",
+    "english": "We can use getServerSideProps to fetch the data."
   },
   {
-    "norwegian": "Konflikter i Midtøsten skaper mange flyktninger.",
-    "russian": "Конфликты на Ближнем Востоке создают много беженцев.",
-    "english": "Conflicts in the Middle East create many refugees."
+    "norwegian": "Skal vi bruke Tailwind CSS for design?",
+    "russian": "Мы будем использовать Tailwind CSS для дизайна?",
+    "english": "Should we use Tailwind CSS for the design?"
   },
   {
-    "norwegian": "Norge arbeider for å beskytte miljøet globalt.",
-    "russian": "Норвегия работает над охраной окружающей среды во всем мире.",
-    "english": "Norway works to protect the environment globally."
+    "norwegian": "Tailwind er raskt og effektivt for små prosjekter.",
+    "russian": "Tailwind быстрый и эффективный для небольших проектов.",
+    "english": "Tailwind is fast and efficient for small projects."
   },
   {
-    "norwegian": "Valget i USA har ført til mange diskusjoner om demokrati.",
-    "russian": "Выборы в США привели к множеству обсуждений о демократии.",
-    "english": "The election in the USA has led to many discussions about democracy."
+    "norwegian": "Hvordan håndterer vi brukerens tilstand?",
+    "russian": "Как мы будем управлять состоянием пользователя?",
+    "english": "How will we handle the user's state?"
   },
   {
-    "norwegian": "Flyktningskrisen påvirker mange land i Europa.",
-    "russian": "Кризис беженцев затрагивает многие страны в Европе.",
-    "english": "The refugee crisis affects many countries in Europe."
+    "norwegian": "Vi kan bruke Context API for å lagre brukerdata.",
+    "russian": "Мы можем использовать Context API для хранения данных пользователя.",
+    "english": "We can use Context API to store user data."
   },
   {
-    "norwegian": "Det er viktig å forstå konflikten i Gaza.",
-    "russian": "Важно понимать конфликт в Газе.",
-    "english": "It is important to understand the conflict in Gaza."
+    "norwegian": "Kan vi teste festival-API med Postman?",
+    "russian": "Можем ли мы протестировать API фестиваля с помощью Postman?",
+    "english": "Can we test the festival API with Postman?"
   },
   {
-    "norwegian": "Norges rolle i NATO er viktig for sikkerheten.",
-    "russian": "Роль Норвегии в НАТО важна для безопасности.",
-    "english": "Norway's role in NATO is important for security."
+    "norwegian": "Ja, det er en god idé for å sjekke alle endepunkter.",
+    "russian": "Да, это хорошая идея для проверки всех эндпоинтов.",
+    "english": "Yes, that's a good idea to check all endpoints."
   },
   {
-    "norwegian": "Brexit har hatt stor innflytelse på Europa.",
-    "russian": "Brexit оказал большое влияние на Европу.",
-    "english": "Brexit has had a big impact on Europe."
+    "norwegian": "Hvordan deployer vi appen på Vercel?",
+    "russian": "Как задеплоить приложение на Vercel?",
+    "english": "How do we deploy the app on Vercel?"
   },
   {
-    "norwegian": "Forhandlinger om fred er nødvendige i Midtøsten.",
-    "russian": "Переговоры о мире необходимы на Ближнем Востоке.",
-    "english": "Peace negotiations are necessary in the Middle East."
+    "norwegian": "Vi må sette opp et Git-repository og koble det til Vercel.",
+    "russian": "Нам нужно настроить Git-репозиторий и подключить его к Vercel.",
+    "english": "We need to set up a Git repository and connect it to Vercel."
   },
   {
-    "norwegian": "Norge bidrar til humanitær hjelp i konfliktområder.",
-    "russian": "Норвегия вносит вклад в гуманитарную помощь в зонах конфликтов.",
-    "english": "Norway contributes to humanitarian aid in conflict areas."
+    "norwegian": "Skal vi bruke Swagger for API-dokumentasjon?",
+    "russian": "Мы будем использовать Swagger для документации API?",
+    "english": "Should we use Swagger for API documentation?"
   },
   {
-    "norwegian": "Politikken til Trump har endret USAs forhold til andre land.",
-    "russian": "Политика Трампа изменила отношения США с другими странами.",
-    "english": "Trump's policies have changed the USA's relations with other countries."
+    "norwegian": "Ja, Swagger hjelper med å dokumentere alle endepunkter tydelig.",
+    "russian": "Да, Swagger помогает чётко документировать все эндпоинты.",
+    "english": "Yes, Swagger helps clearly document all endpoints."
   },
   {
-    "norwegian": "Konflikten i Ukraina påvirker verdensøkonomien.",
-    "russian": "Конфликт в Украине влияет на мировую экономику.",
-    "english": "The conflict in Ukraine affects the global economy."
+    "norwegian": "Hvordan integrerer vi Bruno for API-testing?",
+    "russian": "Как интегрировать Bruno для тестирования API?",
+    "english": "How do we integrate Bruno for API testing?"
   },
-
   {
-    "norwegian": "Norge jobber for fred i verden.",
-    "russian": "Норвегия работает для мира в мире.",
-    "english": "Norway works for peace in the world."
+    "norwegian": "Vi kan bruke Bruno til å skrive og kjøre testskript for API-en vår.",
+    "russian": "Мы можем использовать Bruno для написания и запуска тестов для нашего API.",
+    "english": "We can use Bruno to write and run tests for our API."
   },
   {
-    "norwegian": "Norge er et viktig medlem av NATO.",
-    "russian": "Норвегия является важным членом НАТО.",
-    "english": "Norway is an important member of NATO."
+    "norwegian": "Hvilke hooks trenger vi for å håndtere brukerens pålogging?",
+    "russian": "Какие хуки нам нужны для обработки авторизации пользователя?",
+    "english": "What hooks do we need to handle user login?"
   },
   {
-    "norwegian": "Trump har påvirket amerikansk politikk mye.",
-    "russian": "Трамп сильно повлиял на американскую политику.",
-    "english": "Trump has influenced American politics a lot."
+    "norwegian": "Vi kan bruke useState til å lagre brukerdata og useEffect for å sjekke token.",
+    "russian": "Мы можем использовать useState для хранения данных пользователя и useEffect для проверки токена.",
+    "english": "We can use useState to store user data and useEffect to verify the token."
   },
   {
-    "norwegian": "Konflikten i Gaza skaper mye lidelse.",
-    "russian": "Конфликт в Газе вызывает много страданий.",
-    "english": "The conflict in Gaza causes a lot of suffering."
+    "norwegian": "Hvordan konfigurerer vi Bitbucket-repositoriet for teamarbeid?",
+    "russian": "Как настроить репозиторий в Bitbucket для командной работы?",
+    "english": "How do we configure the Bitbucket repository for teamwork?"
   },
   {
-    "norwegian": "Krigen i Ukraina har stor påvirkning på verden.",
-    "russian": "Война в Украине сильно влияет на мир.",
-    "english": "The war in Ukraine has a big impact on the world."
+    "norwegian": "Vi kan opprette branches for hver oppgave og bruke pull requests for kodegjennomgang.",
+    "russian": "Мы можем создавать ветки для каждой задачи и использовать pull requests для ревью кода.",
+    "english": "We can create branches for each task and use pull requests for code review."
   },
   {
-    "norwegian": "Norge hjelper andre land med humanitær hjelp.",
-    "russian": "Норвегия помогает другим странам с гуманитарной помощью.",
-    "english": "Norway helps other countries with humanitarian aid."
+    "norwegian": "Skal vi lage en side for å vise billettdetaljer?",
+    "russian": "Нужно ли создавать страницу для отображения деталей билета?",
+    "english": "Should we create a page to display ticket details?"
   },
   {
-    "norwegian": "Midtøsten trenger fred og stabilitet.",
-    "russian": "Ближнему Востоку нужны мир и стабильность.",
-    "english": "The Middle East needs peace and stability."
+    "norwegian": "Ja, brukerne trenger å se billettype, pris og antall.",
+    "russian": "Да, пользователи должны видеть тип билета, цену и количество.",
+    "english": "Yes, users need to see ticket type, price, and quantity."
   },
   {
-    "norwegian": "Trump er en kontroversiell figur i politikken.",
-    "russian": "Трамп является спорной фигурой в политике.",
-    "english": "Trump is a controversial figure in politics."
+    "norwegian": "Hvordan håndterer vi feilmeldinger når API ikke svarer?",
+    "russian": "Как обрабатывать ошибки, если API не отвечает?",
+    "english": "How do we handle errors when the API doesn't respond?"
   },
-
   {
-    "norwegian": "Konflikten i Ukraina skaper store problemer.",
-    "russian": "Конфликт в Украине вызывает большие проблемы.",
-    "english": "The conflict in Ukraine creates big problems."
+    "norwegian": "Vi kan vise en feilmelding med en knapp for å prøve igjen.",
+    "russian": "Мы можем показать сообщение об ошибке с кнопкой «Повторить попытку».",
+    "english": "We can display an error message with a retry button."
   },
   {
-    "norwegian": "BlackRock har stor innflytelse på verdensøkonomien.",
-    "russian": "BlackRock оказывает значительное влияние на мировую экономику.",
-    "english": "BlackRock has a significant influence on the global economy."
+    "norwegian": "Kan vi bruke Next.js for dynamiske ruter for festivaler?",
+    "russian": "Можно ли использовать Next.js для динамических маршрутов фестивалей?",
+    "english": "Can we use Next.js for dynamic routes for festivals?"
   },
   {
-    "norwegian": "BlackRock investerer i teknologi og energi.",
-    "russian": "BlackRock инвестирует в технологии и энергию.",
-    "english": "BlackRock invests in technology and energy."
+    "norwegian": "Ja, vi kan lage [festivalId].js for å vise unike festivaler.",
+    "russian": "Да, мы можем создать [festivalId].js для отображения уникальных фестивалей.",
+    "english": "Yes, we can create [festivalId].js to display unique festivals."
   },
   {
-    "norwegian": "BlackRock har en stor rolle i global finans.",
-    "russian": "BlackRock играет большую роль в глобальных финансах.",
-    "english": "BlackRock plays a big role in global finance."
+    "norwegian": "Hva er den beste måten å optimalisere sideinnlasting?",
+    "russian": "Как оптимизировать загрузку страницы?",
+    "english": "What is the best way to optimize page loading?"
   },
   {
-    "norwegian": "BlackRock har stor innflytelse på markedet.",
-    "russian": "BlackRock оказывает значительное влияние на рынок.",
-    "english": "BlackRock has a significant influence on the market."
+    "norwegian": "Vi kan bruke lazy loading for tunge komponenter.",
+    "russian": "Мы можем использовать ленивую загрузку для тяжёлых компонентов.",
+    "english": "We can use lazy loading for heavy components."
   },
   {
-    "norwegian": "Norge støtter FN i mange internasjonale spørsmål.",
-    "russian": "Норвегия поддерживает ООН по многим международным вопросам.",
-    "english": "Norway supports the UN on many international issues."
+    "norwegian": "Hvordan kan vi sikre at TypeScript-filer blir riktig kompilert?",
+    "russian": "Как мы можем убедиться, что файлы TypeScript компилируются корректно?",
+    "english": "How can we ensure that TypeScript files are compiled correctly?"
   },
   {
-    "norwegian": "Trump har introdusert mange nye økonomiske tiltak.",
-    "russian": "Трамп ввел много новых экономических мер.",
-    "english": "Trump has introduced many new economic measures."
+    "norwegian": "Vi bør opprette en tsconfig.json med riktige innstillinger.",
+    "russian": "Нужно создать tsconfig.json с правильными настройками.",
+    "english": "We should create a tsconfig.json with the correct settings."
   },
   {
-    "norwegian": "Konflikten i Gaza påvirker sikkerhet og stabilitet i regionen.",
-    "russian": "Конфликт в Газе влияет на безопасность и стабильность в регионе.",
-    "english": "The conflict in Gaza affects security and stability in the region."
+    "norwegian": "Bør vi lage en mock-server for å teste API-et vårt?",
+    "russian": "Нужно ли создать mock-сервер для тестирования нашего API?",
+    "english": "Should we create a mock server to test our API?"
   },
   {
-    "norwegian": "Trump's politikk har påvirket globale markeder.",
-    "russian": "Политика Трампа повлияла на мировые рынки.",
-    "english": "Trump's policies have affected global markets."
+    "norwegian": "Ja, en mock-server hjelper oss med å simulere API-svar under utvikling.",
+    "russian": "Да, mock-сервер поможет имитировать ответы API во время разработки.",
+    "english": "Yes, a mock server helps simulate API responses during development."
   },
   {
-    "norwegian": "Norge spiller en sentral rolle i klimaforhandlinger.",
-    "russian": "Норвегия играет центральную роль в климатических переговорах.",
-    "english": "Norway plays a central role in climate negotiations."
+    "norwegian": "Hvordan logger vi feil i brukergrensesnittet?",
+    "russian": "Как мы будем логировать ошибки в интерфейсе?",
+    "english": "How do we log errors in the user interface?"
   },
   {
-    "norwegian": "Norge samarbeider med andre land om klimaendringer.",
-    "russian": "Норвегия сотрудничает с другими странами по вопросам изменения климата.",
-    "english": "Norway cooperates with other countries on climate change."
+    "norwegian": "Vi kan bruke Sentry for overvåking og logging.",
+    "russian": "Мы можем использовать Sentry для мониторинга и логирования.",
+    "english": "We can use Sentry for monitoring and logging."
   },
   {
-    "norwegian": "BlackRock har en viktig rolle i globale finansmarkeder.",
-    "russian": "BlackRock играет важную роль на мировых финансовых рынках.",
-    "english": "BlackRock plays an important role in global financial markets."
+    "norwegian": "Hvordan implementerer vi sikkerhet for kjøpsprosessen?",
+    "russian": "Как реализовать безопасность процесса покупки?",
+    "english": "How do we implement security for the purchase process?"
   },
   {
-    "norwegian": "Norge arbeider for internasjonal utvikling og bistand.",
-    "russian": "Норвегия работает над международным развитием и помощью.",
-    "english": "Norway works for international development and aid."
+    "norwegian": "Vi må legge til HTTPS og beskytte sensitive data.",
+    "russian": "Нужно добавить HTTPS и защитить чувствительные данные.",
+    "english": "We need to add HTTPS and secure sensitive data."
   },
   {
-    "norwegian": "Trump har skapt debatt om innvandringspolitikk.",
-    "russian": "Трамп вызвал дебаты о политике иммиграции.",
-    "english": "Trump has sparked debate on immigration policy."
+    "norwegian": "Skal vi lage en egen modal for betalingsfeil?",
+    "russian": "Стоит ли создать отдельное модальное окно для ошибок оплаты?",
+    "english": "Should we create a separate modal for payment errors?"
   },
   {
-    "norwegian": "Konflikten i Ukraina har ført til økonomiske sanksjoner.",
-    "russian": "Конфликт в Украине привел к экономическим санкциям.",
-    "english": "The conflict in Ukraine has led to economic sanctions."
+    "norwegian": "Ja, brukeren må få tydelig beskjed hvis betalingen mislykkes.",
+    "russian": "Да, пользователь должен чётко видеть уведомление, если оплата не прошла.",
+    "english": "Yes, the user needs clear feedback if the payment fails."
   },
   {
-    "norwegian": "Norge har en sterk posisjon i verdenspolitikken.",
-    "russian": "Норвегия занимает сильную позицию в мировой политике.",
-    "english": "Norway has a strong position in world politics."
+    "norwegian": "Hvilke tester skal vi skrive for betalingssystemet?",
+    "russian": "Какие тесты нам нужно написать для платёжной системы?",
+    "english": "What tests should we write for the payment system?"
   },
   {
-    "norwegian": "Korupsjon i Ukraina er et stort problem for økonomisk utvikling.",
-    "russian": "Коррупция в Украине является большой проблемой для экономического развития.",
-    "english": "Corruption in Ukraine is a big problem for economic development."
+    "norwegian": "Vi kan skrive enhetstester for validering og integrasjonstester for hele prosessen.",
+    "russian": "Мы можем написать модульные тесты для валидации и интеграционные для всей системы.",
+    "english": "We can write unit tests for validation and integration tests for the whole process."
   },
   {
-    "norwegian": "Det er rapportert om alvorlige menneskerettighetsbrudd i TCC.",
-    "russian": "Сообщается о серьезных нарушениях прав человека в ТЦК.",
-    "english": "There have been reports of serious human rights abuses in the TCC."
+    "norwegian": "Hvordan kan vi gjøre sidene raskere for mobilbrukere?",
+    "russian": "Как ускорить страницы для мобильных пользователей?",
+    "english": "How can we make pages faster for mobile users?"
   },
   {
-    "norwegian": "Folk blir tvunget til å kjempe i TCC i Ukraina.",
-    "russian": "Людей заставляют воевать в ТЦК в Украине.",
-    "english": "People are forced to fight in the TCC in Ukraine."
+    "norwegian": "Vi kan aktivere bildeoptimalisering i Next.js.",
+    "russian": "Мы можем включить оптимизацию изображений в Next.js.",
+    "english": "We can enable image optimization in Next.js."
   },
   {
-    "norwegian": "Trump har hatt stor innvirkning på gasssektoren.",
-    "russian": "Трамп оказал значительное влияние на газовую отрасль.",
-    "english": "Trump has had a significant impact on the gas sector."
+    "norwegian": "Bør vi implementere en dark mode for festivalappen?",
+    "russian": "Стоит ли внедрить тёмный режим для приложения фестиваля?",
+    "english": "Should we implement a dark mode for the festival app?"
   },
   {
-    "norwegian": "Norge spiller en viktig rolle i verdenspolitikken.",
-    "russian": "Норвегия играет важную роль в мировой политике.",
-    "english": "Norway plays an important role in world politics."
+    "norwegian": "Ja, mange brukere foretrekker å ha en slik funksjon.",
+    "russian": "Да, многим пользователям нравится иметь такую функцию.",
+    "english": "Yes, many users like having this feature."
   },
   {
-    "norwegian": "Konflikten i Ukraina påvirker verdensøkonomien.",
-    "russian": "Конфликт в Украине влияет на мировую экономику.",
-    "english": "The conflict in Ukraine affects the global economy."
+    "norwegian": "Kan vi bruke Bitbucket Pipelines til CI/CD?",
+    "russian": "Можем ли мы использовать Bitbucket Pipelines для CI/CD?",
+    "english": "Can we use Bitbucket Pipelines for CI/CD?"
   },
   {
-    "norwegian": "Norge støtter fredsforhandlinger i verden.",
-    "russian": "Норвегия поддерживает мирные переговоры в мире.",
-    "english": "Norway supports peace negotiations in the world."
+    "norwegian": "Ja, det vil hjelpe oss med automatisering av bygg og distribusjon.",
+    "russian": "Да, это поможет автоматизировать сборку и деплой.",
+    "english": "Yes, it will help us automate builds and deployments."
   },
   {
-    "norwegian": "Trump er kjent for sin uvanlige politiske stil.",
-    "russian": "Трамп известен своим необычным политическим стилем.",
-    "english": "Trump is known for his unusual political style."
+    "norwegian": "Hvordan sikrer vi at brukernes data er trygge?",
+    "russian": "Как мы можем гарантировать безопасность данных пользователей?",
+    "english": "How do we ensure that user data is safe?"
   },
   {
-    "norwegian": "Konflikter i Midtøsten skaper mange flyktninger.",
-    "russian": "Конфликты на Ближнем Востоке создают много беженцев.",
-    "english": "Conflicts in the Middle East create many refugees."
-  },
-  {
-    "norwegian": "Korupsjon i Ukraina hindrer landets utvikling.",
-    "russian": "Коррупция в Украине препятствует развитию страны.",
-    "english": "Corruption in Ukraine hinders the country's development."
-  },
-  {
-    "norwegian": "Det er mange rapporter om tvangsrekruttering i TCC i Ukraina.",
-    "russian": "Есть много сообщений о принудительном наборе в ТЦК в Украине.",
-    "english": "There are many reports of forced conscription in the TCC in Ukraine."
-  },
-  {
-    "norwegian": "Menneskerettighetsbrudd i TCC er et alvorlig problem.",
-    "russian": "Нарушения прав человека в ТЦК являются серьезной проблемой.",
-    "english": "Human rights abuses in the TCC are a serious problem."
-  },
-  {
-    "norwegian": "Trump sin politikk har endret det politiske landskapet i USA.",
-    "russian": "Политика Трампа изменила политический ландшафт в США.",
-    "english": "Trump's policies have changed the political landscape in the USA."
-  },
-  {
-    "norwegian": "Norge arbeider for fred og stabilitet i verden.",
-    "russian": "Норвегия работает для мира и стабильности в мире.",
-    "english": "Norway works for peace and stability in the world."
-  },
-  {
-    "norwegian": "Krigen i Ukraina har ført til økonomiske utfordringer globalt.",
-    "russian": "Война в Украине привела к экономическим вызовам в глобальном масштабе.",
-    "english": "The war in Ukraine has led to economic challenges globally."
-  },
-  {
-    "norwegian": "Situasjonen i Midtøsten er fortsatt vanskelig.",
-    "russian": "Ситуация на Ближнем Востоке остается сложной.",
-    "english": "The situation in the Middle East remains difficult."
-  },
-  {
-    "norwegian": "Norge støtter internasjonale fredsinitiativer.",
-    "russian": "Норвегия поддерживает международные мирные инициативы.",
-    "english": "Norway supports international peace initiatives."
-  },
-  {
-    "norwegian": "Politikken til Trump har skapt mange debatter.",
-    "russian": "Политика Трампа вызвала много дискуссий.",
-    "english": "Trump's policies have created many debates."
-  },
-  {
-    "norwegian": "Konflikter i Midtøsten fører til store flyktningstrømmer.",
-    "russian": "Конфликты на Ближнем Востоке приводят к большим потокам беженцев.",
-    "english": "Conflicts in the Middle East lead to large refugee flows."
-  },
-  {
-    "norwegian": "Korupsjon i Ukraina er et alvorlig hinder for økonomisk utvikling.",
-    "russian": "Коррупция в Украине является серьезным препятствием для экономического развития.",
-    "english": "Corruption in Ukraine is a serious obstacle to economic development."
-  },
-  {
-    "norwegian": "Menneskerettighetsorganisasjoner rapporterer om vold i TCC.",
-    "russian": "Правозащитные организации сообщают о насилии в ТЦК.",
-    "english": "Human rights organizations report violence in the TCC."
-  },
-  {
-    "norwegian": "Det er alvorlige anklager om korrupsjon i Ukrainas regjering.",
-    "russian": "Есть серьезные обвинения в коррупции в правительстве Украины.",
-    "english": "There are serious accusations of corruption in Ukraine's government."
-  },
-  {
-    "norwegian": "Folk i Ukraina opplever tvangsrekruttering til krig.",
-    "russian": "Люди в Украине сталкиваются с принудительным набором на войну.",
-    "english": "People in Ukraine face forced conscription for war."
-  },
-  {
-    "norwegian": "Trump har hatt en betydelig innvirkning på amerikansk økonomi.",
-    "russian": "Трамп оказал значительное влияние на экономику США.",
-    "english": "Trump has had a significant impact on the US economy."
-  },
-  {
-    "norwegian": "Norge bidrar til internasjonale fredsprosesser.",
-    "russian": "Норвегия вносит вклад в международные мирные процессы.",
-    "english": "Norway contributes to international peace processes."
-  },
-  {
-    "norwegian": "Krigen i Ukraina har ført til internasjonale sanksjoner.",
-    "russian": "Война в Украине привела к международным санкциям.",
-    "english": "The war in Ukraine has led to international sanctions."
-  },
-  {
-    "norwegian": "Det er mange humanitære kriser i Midtøsten.",
-    "russian": "На Ближнем Востоке много гуманитарных кризисов.",
-    "english": "There are many humanitarian crises in the Middle East."
-  },
-  {
-    "norwegian": "Norge er engasjert i globale klimainitiativer.",
-    "russian": "Норвегия участвует в глобальных климатических инициативах.",
-    "english": "Norway is involved in global climate initiatives."
-  },
-  {
-    "norwegian": "Trump har skapt mye debatt om immigrasjonspolitikk.",
-    "russian": "Трамп вызвал много дискуссий о политике в области иммиграции.",
-    "english": "Trump has sparked much debate about immigration policy."
+    "norwegian": "Vi bør bruke kryptering og følge GDPR-reglene.",
+    "russian": "Нужно использовать шифрование и соблюдать правила GDPR.",
+    "english": "We should use encryption and follow GDPR rules."
   }
+
 ];
 
 
